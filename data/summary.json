@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-19T09:52:24+00:00",
+ "updated": "2026-11-19T10:30:53+00:00",
  "days": [
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
+  "2026-11-11",
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
@@ -13,33 +14,33 @@
   "2026-11-18"
  ],
  "total": {
-  "verified": 1189,
-  "mismatch": 57,
-  "unverifiable": 88,
-  "judged": 1246,
-  "rate": 4.6
+  "verified": 1272,
+  "mismatch": 54,
+  "unverifiable": 100,
+  "judged": 1326,
+  "rate": 4.1
  },
  "agents": {
   "Claude Code": {
-   "verified": 599,
-   "mismatch": 30,
-   "unverifiable": 16,
-   "judged": 629,
-   "rate": 4.8
+   "verified": 662,
+   "mismatch": 28,
+   "unverifiable": 17,
+   "judged": 690,
+   "rate": 4.1
   },
   "Cursor": {
-   "verified": 344,
+   "verified": 365,
    "mismatch": 10,
-   "unverifiable": 58,
-   "judged": 354,
-   "rate": 2.8
+   "unverifiable": 69,
+   "judged": 375,
+   "rate": 2.7
   },
   "Devin": {
-   "verified": 189,
-   "mismatch": 11,
+   "verified": 188,
+   "mismatch": 10,
    "unverifiable": 11,
-   "judged": 200,
-   "rate": 5.5
+   "judged": 198,
+   "rate": 5.1
   },
   "Copilot": {
    "verified": 57,
@@ -51,10 +52,10 @@
  },
  "failed_kind": {
   "End-to-end / integration": 10,
-  "Unit / other tests": 33,
-  "Build": 14
+  "Unit / other tests": 31,
+  "Build": 13
  },
- "merged_with_failing_tests": 36,
+ "merged_with_failing_tests": 32,
  "cases": [
   {
    "pr_url": "https://github.com/beresdowds-afk/CurriculumServer-/pull/18",
@@ -173,7 +174,6 @@
    "agent": "Devin",
    "claim": "All 7 tests pass.",
    "failed": [
-    "scripts (audit:ci)",
     "unit-tests (8)"
    ],
    "kind": "Unit / other tests",
@@ -186,7 +186,6 @@
    "agent": "Devin",
    "claim": "NODEENV=test nodemodules/.bin/jest app/components/UI/Swaps/utils/index.test.js --coverage=false (37 tests pass)",
    "failed": [
-    "scripts (audit:ci)",
     "unit-tests (3)"
    ],
    "kind": "Unit / other tests",
@@ -399,18 +398,6 @@
    "checked_at": "2026-11-18T19:25:32+00:00"
   },
   {
-   "pr_url": "https://github.com/in-the-midst-of-the-markets/midst-studio/pull/213",
-   "agent": "Cursor",
-   "claim": "All existing tests pass",
-   "failed": [
-    "Engine Smoke - Build Payload"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-13T22:39:03Z",
-   "checked_at": "2026-11-19T08:56:54+00:00"
-  },
-  {
    "pr_url": "https://github.com/ryancinsight/leto/pull/410",
    "agent": "Claude Code",
    "claim": "Clause 1, existing symmetriceigen tests pass unchanged: export of a1568745 run with cargo nextest run --manifest-path <export/Cargo.toml --locked -p leto-ops -E 'test(symmetriceigen) | test(ops::eigen) | test(ops::symmetricqr)' with CARGOTA",
@@ -437,19 +424,6 @@
    "merged": true,
    "pr_created": "2026-11-13T11:59:25Z",
    "checked_at": "2026-11-19T08:52:18+00:00"
-  },
-  {
-   "pr_url": "https://github.com/elevate-for-humanity/Elevate-lms/pull/2601",
-   "agent": "Devin",
-   "claim": "The same test passed on Nov 2 (run 41477857180) before the menu was added.",
-   "failed": [
-    "Accessibility Tests",
-    "E2E Enrollment Flow"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-13T10:40:07Z",
-   "checked_at": "2026-11-19T09:00:41+00:00"
   },
   {
    "pr_url": "https://github.com/HYBAAIDATA/ChronusQiGPU/pull/47",
@@ -557,18 +531,6 @@
    "checked_at": "2026-11-19T08:59:13+00:00"
   },
   {
-   "pr_url": "https://github.com/josaum/parsers-rs/pull/41",
-   "agent": "Claude Code",
-   "claim": "Format, clippy with -D warnings and tests pass.",
-   "failed": [
-    "cargo-audit"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-12T23:59:59Z",
-   "checked_at": "2026-11-19T09:07:15+00:00"
-  },
-  {
    "pr_url": "https://github.com/cacheplane/threadplane/pull/1576",
    "agent": "Claude Code",
    "claim": "nx run-many -t test,type-tests,lint,build -p react,content: 1236 React tests pass, lint has warnings only.",
@@ -607,6 +569,49 @@
    "checked_at": "2026-11-19T09:06:01+00:00"
   },
   {
+   "pr_url": "https://github.com/vitessio/vitess/pull/22045",
+   "agent": "Cursor",
+   "claim": "All 22 subtests passed, plus the flushlogs assertion.",
+   "failed": [
+    "Docker Test Cluster",
+    "Run endtoend tests on Cluster (18)",
+    "Run endtoend tests on Cluster (21)",
+    "Run endtoend tests on Cluster (tabletmanager_consul)",
+    "Run endtoend tests on Cluster (vtgate_transaction)"
+   ],
+   "kind": "Unit / other tests",
+   "merged": false,
+   "pr_created": "2026-11-11T11:27:19Z",
+   "checked_at": "2026-11-19T10:29:49+00:00"
+  },
+  {
+   "pr_url": "https://github.com/sachiniyer/agent-factory/pull/7090",
+   "agent": "Claude Code",
+   "claim": "In the same run, item 2's test passes on the fix head.",
+   "failed": [
+    "Test (Ubuntu 26.04, report-only)"
+   ],
+   "kind": "Unit / other tests",
+   "merged": true,
+   "pr_created": "2026-11-11T11:26:29Z",
+   "checked_at": "2026-11-19T10:26:16+00:00"
+  },
+  {
+   "pr_url": "https://github.com/YG221/AppFlowy/pull/1",
+   "agent": "Cursor",
+   "claim": "flutter test --concurrency=1 in frontend/appflowyflutter: All tests passed, 368 tests, exit 0.",
+   "failed": [
+    "build-app",
+    "build-for-docker",
+    "integration-tests",
+    "prepare-linux (ubuntu-latest)"
+   ],
+   "kind": "End-to-end / integration",
+   "merged": false,
+   "pr_created": "2026-11-11T06:43:07Z",
+   "checked_at": "2026-11-19T10:29:17+00:00"
+  },
+  {
    "pr_url": "https://github.com/vercel/workflow/pull/5371",
    "agent": "Claude Code",
    "claim": "world-postgres: unit tests pass, and its Docker queue, fan-out and hook-resume-timing tests pass against the rebuilt world-local.",
@@ -629,18 +634,6 @@
    "merged": false,
    "pr_created": "2026-11-10T20:41:02Z",
    "checked_at": "2026-11-19T09:21:24+00:00"
-  },
-  {
-   "pr_url": "https://github.com/JuliaWeb/HTTP.jl/pull/1562",
-   "agent": "Claude Code",
-   "claim": "Three tests passed an Int literal where an Int64 is required, and one used 1 << 31 as a length.",
-   "failed": [
-    "Julia pre - ubuntu-latest - x64 - pull_request"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-10T19:58:36Z",
-   "checked_at": "2026-11-19T09:13:52+00:00"
   },
   {
    "pr_url": "https://github.com/achappey/aihappey-providers/pull/123",
@@ -692,18 +685,6 @@
    "checked_at": "2026-11-19T09:23:46+00:00"
   },
   {
-   "pr_url": "https://github.com/FRIKKern/barkpark/pull/25505",
-   "agent": "Claude Code",
-   "claim": "The awk then finds nothing, and the gate goes red with every test passing.",
-   "failed": [
-    "Required-check spec drift (advisory)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-10T07:25:31Z",
-   "checked_at": "2026-11-19T09:14:24+00:00"
-  },
-  {
    "pr_url": "https://github.com/airbytehq/airbyte/pull/91464",
    "agent": "Devin",
    "claim": "The manifest and components.py are unchanged, and the mocked tests pass.",
@@ -730,20 +711,6 @@
    "merged": true,
    "pr_created": "2026-11-10T03:47:58Z",
    "checked_at": "2026-11-19T09:20:32+00:00"
-  },
-  {
-   "pr_url": "https://github.com/lazyxeon/AstraWeave/pull/734",
-   "agent": "Cursor",
-   "claim": "The 7 module tests passed.",
-   "failed": [
-    "Cargo Deny Check",
-    "Security Audit (cargo-audit)",
-    "cargo-audit, cargo-deny, SBOM"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-10T00:58:46Z",
-   "checked_at": "2026-11-19T09:18:29+00:00"
   },
   {
    "pr_url": "https://github.com/j769chen/splitbill/pull/15",

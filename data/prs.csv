@@ -24,7 +24,6 @@ https://github.com/gopaytech/pergent.sh/pull/45,Claude Code,VERIFIED,"go test ./
 https://github.com/ivers9307-cyber/un1t-crm/pull/2332,Claude Code,VERIFIED,"npm test: 3,041 files, 62,628 tests passing.",,1,2026-11-09T11:47:10Z,2026-11-19T09:27:50+00:00
 https://github.com/marvelvarghese/cookpool/pull/107,Claude Code,VERIFIED,"The console and mcp-worker both typecheck, and their tests pass (2,134 and 63).",,1,2026-11-09T11:57:45Z,2026-11-19T09:27:48+00:00
 https://github.com/fredericrous/relais/pull/421,Claude Code,VERIFIED,Observed: all 34 native tests pass; the two fixed tests passed 8 runs out of 8 locally (6.5 s for both); 31 pre-commit checks passed.,,1,2026-11-09T11:57:54Z,2026-11-19T09:26:56+00:00
-https://github.com/javadmeighani-oss/sedi-backend/pull/180,Claude Code,VERIFIED,"Tests: 61 (all variants x 3 languages x with/without name, topic push, unknown bodies, other families) ; 491 related tests pass, 1 known pre-existing red (testm5).",,1,2026-11-09T11:58:09Z,2026-11-19T09:26:54+00:00
 https://github.com/idy/sing-box-flutter/pull/4,Claude Code,VERIFIED,All 84 Python tests passed.,,1,2026-11-09T11:58:24Z,2026-11-19T09:26:52+00:00
 https://github.com/typeshade/typeaudio/pull/52,Claude Code,VERIFIED,17 files and 163 tests passed.,,1,2026-11-09T11:59:29Z,2026-11-19T09:28:45+00:00
 https://github.com/fraiseql/fraiseql/pull/1976,Claude Code,VERIFIED,The new test passes in both of the test leg's lib runs.,,1,2026-11-09T11:59:35Z,2026-11-19T09:28:43+00:00
@@ -66,7 +65,7 @@ https://github.com/j769chen/splitbill/pull/15,Claude Code,MISMATCH,"check:migrat
 https://github.com/endavis/bastproxy/pull/261,Claude Code,VERIFIED,All existing tests pass,,1,2026-11-09T23:59:50Z,2026-11-19T09:27:32+00:00
 https://github.com/elfensky/helldivers.bot/pull/652,Claude Code,VERIFIED,"npm run test:unit: 199 files, 2103 tests passed.",,1,2026-11-09T23:59:51Z,2026-11-19T09:29:07+00:00
 https://github.com/snagaram3/confXarm64/pull/13,Cursor,VERIFIED,✅ All tests pass: npm test (169 passing),,1,2026-11-10T00:48:40Z,2026-11-19T09:18:31+00:00
-https://github.com/lazyxeon/AstraWeave/pull/734,Cursor,MISMATCH,The 7 module tests passed.,"Cargo Deny Check; Security Audit (cargo-audit); cargo-audit, cargo-deny, SBOM",0,2026-11-10T00:58:46Z,2026-11-19T09:18:29+00:00
+https://github.com/lazyxeon/AstraWeave/pull/734,Cursor,VERIFIED,The 7 module tests passed.,,0,2026-11-10T00:58:46Z,2026-11-19T09:18:29+00:00
 https://github.com/hiwavebrowser/hiwave-macos/pull/1023,Cursor,VERIFIED,"After the fix (b44199f8), all 12 e2e checks pass, and the new unit tests pass.",,1,2026-11-10T02:54:02Z,2026-11-19T09:17:10+00:00
 https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-workorders/pull/1587,Cursor,VERIFIED,"Every data-testid, every Elements member the acceptance tests use, and the rendered markup are unchanged; all 243 acceptance tests pass, the phone-width and light/dark layout tests included.",,1,2026-11-10T03:08:40Z,2026-11-19T09:17:07+00:00
 https://github.com/lazyxeon/AstraWeave/pull/747,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-10T03:28:39Z,2026-11-19T09:17:01+00:00
@@ -103,7 +102,6 @@ https://github.com/COG-GTM/otterworks/pull/634,Devin,VERIFIED,"Locally that was 
 https://github.com/CherryHQ/cherry-studio/pull/24106,Copilot,VERIFIED,pnpm exec vitest run --project main src/main/ai/provider/tests/openaiResponsesLifecyclePatch.test.ts — 3 tests passed.,,1,2026-11-10T07:00:17Z,2026-11-19T09:24:29+00:00
 https://github.com/alexhawat/mergeCraft/pull/1282,Cursor,VERIFIED,All static checks clean; 45 tests passed.,,1,2026-11-10T07:08:42Z,2026-11-19T09:17:14+00:00
 https://github.com/f/prompts.chat/pull/1380,Cursor,VERIFIED,npx vitest run src/components/book: 17 tests passed.,,1,2026-11-10T07:22:21Z,2026-11-19T09:17:12+00:00
-https://github.com/FRIKKern/barkpark/pull/25505,Claude Code,MISMATCH,"The awk then finds nothing, and the gate goes red with every test passing.",Required-check spec drift (advisory),1,2026-11-10T07:25:31Z,2026-11-19T09:14:24+00:00
 https://github.com/MariaNattestad/graphoscope/pull/45,Claude Code,VERIFIED,TypeScript: 92 unit tests pass.,,1,2026-11-10T07:28:49Z,2026-11-19T09:14:21+00:00
 https://github.com/ruvnet/RuVector/pull/1470,Claude Code,VERIFIED,"Acceptance thresholds were pre-registered (≥50pp incoherent Deny+Defer delta, ≥85% coherent Permit rate, all tests/build/clippy green, invariant test passing) before implementation, so the result couldn't be adjusted after seeing numbers.",,0,2026-11-10T07:45:01Z,2026-11-19T09:14:19+00:00
 https://github.com/charukesava/JARVIS_AI/pull/2,Copilot,VERIFIED,Tests passed: 2 passed.,,1,2026-11-10T07:54:00Z,2026-11-19T09:24:25+00:00
@@ -137,7 +135,6 @@ https://github.com/endavis/bastproxy/pull/297,Claude Code,VERIFIED,All existing 
 https://github.com/openzigs/onyourleft/pull/2440,Claude Code,VERIFIED,"pnpm exec vitest run --project domain: 73 files, 1947 tests passed",,1,2026-11-10T11:59:53Z,2026-11-19T09:15:10+00:00
 https://github.com/collabora/lava-gitlab-runner/pull/135,Copilot,VERIFIED,cargo test --all-targets (2 tests passed),,1,2026-11-10T13:42:01Z,2026-11-19T09:23:55+00:00
 https://github.com/rotdrop/nextcloud-app-bav/pull/24,Copilot,VERIFIED,All 19 Vitest tests passed through npm test -- --run and make frontend-tests.,,1,2026-11-10T13:57:20Z,2026-11-19T09:23:53+00:00
-https://github.com/fastrepl/anarlog/pull/8190,Devin,VERIFIED,"pnpm -F @anlg/desktop test — 495 files / 4,230 tests passed before the review fix; 68 scheduled-recording tests passed afterward, including a new red/green regression for restored Pro access.",,1,2026-11-10T14:03:01Z,2026-11-19T09:20:57+00:00
 https://github.com/DFE-Digital/teaching-record-system/pull/4012,Copilot,VERIFIED,"dotnet run scripts/TestChanged.cs (just test-changed): API tests passed (3,831 passed, 1 skipped).",,1,2026-11-10T14:06:59Z,2026-11-19T09:24:58+00:00
 https://github.com/yossi-weinberger/ten10/pull/695,Cursor,VERIFIED,✅ All vitest tests pass (1579 tests),,1,2026-11-10T14:59:03Z,2026-11-19T09:17:52+00:00
 https://github.com/dantelrharrell-debug/Nija/pull/3725,Copilot,VERIFIED,- All relevant tests pass; reviewed PR and deployment SHA documented.,,1,2026-11-10T15:01:02Z,2026-11-19T09:23:49+00:00
@@ -181,7 +178,6 @@ https://github.com/alexandru-savinov/agterm-omarchy/pull/214,Claude Code,VERIFIE
 https://github.com/brandonmcconnell/geld/pull/596,Cursor,VERIFIED,"Extension typecheck is clean, and all 758 extension tests pass, including new tests for the head override, the Commits list order and the worker request carrying the head.",,1,2026-11-10T19:57:09Z,2026-11-19T09:17:53+00:00
 https://github.com/Shadowell/HyperTrade/pull/107,Claude Code,VERIFIED,"The existing ingestion, heartbeat and resilience tests pass unchanged.",,1,2026-11-10T19:58:27Z,2026-11-19T09:13:57+00:00
 https://github.com/Eren-Enou/SpiritScape/pull/43,Claude Code,VERIFIED,Eight release-only long-run tests pass.,,0,2026-11-10T19:58:31Z,2026-11-19T09:13:55+00:00
-https://github.com/JuliaWeb/HTTP.jl/pull/1562,Claude Code,MISMATCH,"Three tests passed an Int literal where an Int64 is required, and one used 1 << 31 as a length.",Julia pre - ubuntu-latest - x64 - pull_request,1,2026-11-10T19:58:36Z,2026-11-19T09:13:52+00:00
 https://github.com/juno-ai-labs/avalon/pull/1534,Claude Code,VERIFIED,pnpm --filter @rally/api exec vitest run test/inference-lakehouse.test.ts: 11 tests passed.,,1,2026-11-10T19:58:51Z,2026-11-19T09:13:49+00:00
 https://github.com/rudi-cilibrasi/openfort-sim/pull/67,Claude Code,VERIFIED,All browser tests pass.,,1,2026-11-10T19:59:02Z,2026-11-19T09:13:48+00:00
 https://github.com/AryaTech-Labs/loupe-waitlist/pull/8,Claude Code,VERIFIED,"All browser tests pass against a stamped copy, and each file is fetched once.",,1,2026-11-10T19:59:07Z,2026-11-19T09:13:46+00:00
@@ -219,6 +215,110 @@ https://github.com/brandonmcconnell/geld/pull/606,Cursor,VERIFIED,"46 installer 
 https://github.com/bogd3v/micelio-plugin-fediverse/pull/18,Claude Code,VERIFIED,"npm run check (check-fix.log, .exit, .uptime) — exit 0: 42 test files passed, 2 skipped (44); 491 tests passed, 2 skipped (493); the test step 130.26 s.",,1,2026-11-10T23:59:42Z,2026-11-19T09:14:43+00:00
 https://github.com/TCKDB/TCKDB/pull/897,Claude Code,VERIFIED,"npx vitest run --maxWorkers=2: 206 files, 4688 tests passed",,1,2026-11-10T23:59:43Z,2026-11-19T09:15:43+00:00
 https://github.com/Birra3324/visionmusicapp/pull/6,Cursor,VERIFIED,flutter test — 71 tests passed.,,1,2026-11-10T23:59:47Z,2026-11-19T09:19:22+00:00
+https://github.com/eduardowanderleyde/vps-attack-detector/pull/21,Cursor,UNVERIFIABLE,All 23 tests passing,,1,2026-11-11T00:26:49Z,2026-11-19T10:30:46+00:00
+https://github.com/eduardowanderleyde/vps-attack-detector/pull/22,Cursor,UNVERIFIABLE,All 8 tests passing,,1,2026-11-11T00:27:31Z,2026-11-19T10:30:44+00:00
+https://github.com/eduardowanderleyde/vps-attack-detector/pull/24,Cursor,UNVERIFIABLE,All 11 tests passing,,1,2026-11-11T00:29:15Z,2026-11-19T10:30:41+00:00
+https://github.com/in-the-midst-of-the-markets/midst-studio/pull/194,Cursor,UNVERIFIABLE,New and existing unit tests pass locally with my changes,,1,2026-11-11T03:28:16Z,2026-11-19T10:29:04+00:00
+https://github.com/in-the-midst-of-the-markets/midst-studio/pull/195,Cursor,UNVERIFIABLE,New and existing unit tests pass locally with my changes,,1,2026-11-11T03:34:09Z,2026-11-19T10:28:58+00:00
+https://github.com/SquashMerge/trellis/pull/891,Claude Code,VERIFIED,"The existing Sequence suites (sequence-hops, sequence-pele, sequence-interactions, sequence) and the 885 bound tests pass unchanged.",,1,2026-11-11T03:35:03Z,2026-11-19T10:25:55+00:00
+https://github.com/in-the-midst-of-the-markets/midst-studio/pull/196,Cursor,UNVERIFIABLE,New and existing unit tests pass locally with my changes,,1,2026-11-11T03:38:22Z,2026-11-19T10:28:55+00:00
+https://github.com/AutomatedEmpires/logloads/pull/313,Claude Code,VERIFIED,web: 164 files passed and 3 skipped; 1804 tests passed and 77 skipped.,,1,2026-11-11T03:54:42Z,2026-11-19T10:25:51+00:00
+https://github.com/else-bot/else/pull/295,Claude Code,VERIFIED,All 366 else-desktop tests pass.,,1,2026-11-11T03:58:34Z,2026-11-19T10:24:30+00:00
+https://github.com/charlitomecarez/habi/pull/62,Claude Code,VERIFIED,"npx vitest run --coverage: 605 tests pass, 83.93% of lines.",,1,2026-11-11T03:59:34Z,2026-11-19T10:26:44+00:00
+https://github.com/derek73/python-nameparser/pull/1321,Claude Code,VERIFIED,"Full suite, serial tests, mypy, ruff and the doctests pass.",,1,2026-11-11T03:59:49Z,2026-11-19T10:26:37+00:00
+https://github.com/n8watkins/demo-kit/pull/11,Claude Code,VERIFIED,"Typecheck, lint and tests pass locally.",,1,2026-11-11T03:59:49Z,2026-11-19T10:26:36+00:00
+https://github.com/sgedda/mockifyer/pull/500,Cursor,VERIFIED,All tests pass ✅,,0,2026-11-11T06:02:47Z,2026-11-19T10:29:26+00:00
+https://github.com/4zhmv6zvj2-afk/grokbot-essay-writer/pull/14,Cursor,VERIFIED,That test passed when run on its own.,,1,2026-11-11T06:09:07Z,2026-11-19T10:29:23+00:00
+https://github.com/websentry-ai/coding-discovery-tool/pull/400,Cursor,VERIFIED,"The other four tests pass either way on purpose: they cover the reader parsing a real file on disk, and the case where no managed policy exists, so a correct path behind a broken reader cannot pass.",,1,2026-11-11T06:12:42Z,2026-11-19T10:29:22+00:00
+https://github.com/deber116/on-device-decisioning-demo-site/pull/4,Cursor,VERIFIED,✓ Smoke test passed!,,1,2026-11-11T06:34:06Z,2026-11-19T10:29:19+00:00
+https://github.com/YG221/AppFlowy/pull/1,Cursor,MISMATCH,"flutter test --concurrency=1 in frontend/appflowyflutter: All tests passed, 368 tests, exit 0.",build-app; build-for-docker; integration-tests; prepare-linux (ubuntu-latest),0,2026-11-11T06:43:07Z,2026-11-19T10:29:17+00:00
+https://github.com/f/prompts.chat/pull/1382,Cursor,VERIFIED,npm test: 1400/1400 tests pass.,,1,2026-11-11T07:01:31Z,2026-11-19T10:29:15+00:00
+https://github.com/truefoundry/trueforge/pull/1326,Cursor,VERIFIED,Ran pnpm --filter @truefoundry/trueforge-core test -- Sandbox - all 38 tests passed,,0,2026-11-11T07:03:21Z,2026-11-19T10:29:12+00:00
+https://github.com/frankbria/code-evolve/pull/146,Claude Code,VERIFIED,"All tests passing: jest 66/66, shell 40/40 files (run with root's permission bypass dropped)",,1,2026-11-11T07:42:05Z,2026-11-19T10:26:06+00:00
+https://github.com/Asymmetric-al/core/pull/2647,Cursor,VERIFIED,"Enabled hook-on publication of c351a90d025b06872609fb8d84bb5d16f6a2fe03 passes the full ci:preflight: 1,356 suites / 13,766 tests passed, 22 suites / 463 tests skipped and 4 todo, with zero unhandled errors; all three production builds, for",,1,2026-11-11T07:50:16Z,2026-11-19T10:29:07+00:00
+https://github.com/AccreditMe-Organization/AccreditME2026/pull/280,Claude Code,VERIFIED,All tests passing,,1,2026-11-11T07:51:51Z,2026-11-19T10:26:04+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9350,Claude Code,UNVERIFIABLE,"All tests are passing (unittest, etc.).",,0,2026-11-11T07:56:55Z,2026-11-19T10:26:01+00:00
+https://github.com/WenyuChiou/agent-board/pull/1339,Claude Code,VERIFIED,"Since 1354 a card offers Send only on a route a record shows live, so tests/queued-count.test.mjs's first test passes tests/helpers/recorded-routes.json, as tests/messaging.test.mjs does.",,1,2026-11-11T07:57:10Z,2026-11-19T10:24:59+00:00
+https://github.com/narenyenuganti/health-comp/pull/255,Claude Code,VERIFIED,"On an iPhone 16 Pro simulator (Xcode 26.6), all 1,272 unit tests pass.",,1,2026-11-11T07:57:13Z,2026-11-19T10:24:56+00:00
+https://github.com/alecetch/bubble-workout-engine/pull/501,Claude Code,VERIFIED,"All marketing, landing and footer route tests pass locally (64).",,1,2026-11-11T07:57:14Z,2026-11-19T10:24:54+00:00
+https://github.com/AlienTechSoftware/notecraft/pull/83,Claude Code,VERIFIED,The existing ink and drawing UI tests and the iconsvisual tests pass.,,1,2026-11-11T07:57:33Z,2026-11-19T10:24:49+00:00
+https://github.com/worldcoin/world-id-protocol/pull/1210,Claude Code,VERIFIED,"Testing: all gateway tests pass, including the 120-registration burst, as does the end-to-end e2ebillingregistration test.",,1,2026-11-11T07:57:38Z,2026-11-19T10:24:47+00:00
+https://github.com/tomlm/Boxcars/pull/184,Claude Code,VERIFIED,All 705 engine tests pass.,,1,2026-11-11T07:57:51Z,2026-11-19T10:24:43+00:00
+https://github.com/fglock/PerlOnJava/pull/2026,Claude Code,VERIFIED,make passes (all unit tests green) — verified after each round,,1,2026-11-11T07:58:51Z,2026-11-19T10:24:38+00:00
+https://github.com/heygen-com/hyperframes/pull/7547,Claude Code,VERIFIED,All 243 captureMotionBlur tests pass.,,1,2026-11-11T07:58:54Z,2026-11-19T10:24:37+00:00
+https://github.com/sonichi/sutando/pull/6366,Claude Code,VERIFIED,OK — 25/25 cron-gate tests passed,,1,2026-11-11T07:59:10Z,2026-11-19T10:24:34+00:00
+https://github.com/shakenfist/development/pull/385,Claude Code,VERIFIED,"Next is a class of three rather than three separate things: narrowing the wildcard set from ?[] to , dropping half the branch-policy condition, and widening the rule-type test to admit mergequeue each leave all 133 tests passing.",,1,2026-11-11T07:59:12Z,2026-11-19T10:25:57+00:00
+https://github.com/Lildonk/FairShare/pull/48,Claude Code,VERIFIED,"npm test: 26 files, 380 tests passed",,1,2026-11-11T07:59:26Z,2026-11-19T10:26:57+00:00
+https://github.com/Ivan-Malinovski/calino/pull/268,Claude Code,VERIFIED,"pnpm test:run: 7,093 tests pass on main and on this branch, and no test file is changed.",,1,2026-11-11T07:59:38Z,2026-11-19T10:26:55+00:00
+https://github.com/Sixac/Raiders-Life-Project/pull/12,Claude Code,VERIFIED,93 tests pass.,,1,2026-11-11T07:59:42Z,2026-11-19T10:26:53+00:00
+https://github.com/Synapsium-Labs/ccrc-pwa/pull/2645,Claude Code,VERIFIED,"Tests were written first: server roll-target, roll-lane, roll-idle-route, session-role-view, claude-build-state and ccd-hibernate-roll pass, and every server census and ratchet test passes; both typechecks and the test-tsconfig gate are cle",,1,2026-11-11T07:59:48Z,2026-11-19T10:26:52+00:00
+https://github.com/glycoinfo/GlycanBuilder2/pull/326,Claude Code,VERIFIED,"325 tests pass: those on 317, and 3 new in WrittenInTheConfigurationDrawnTest.",,1,2026-11-11T07:59:57Z,2026-11-19T10:26:48+00:00
+https://github.com/jobspipe/zapier-jobspipe/pull/1,Cursor,VERIFIED,"✅ Tests Pass: 21/21 tests passing, 84% coverage",,0,2026-11-11T10:31:26Z,2026-11-19T10:29:55+00:00
+https://github.com/vaibhavarora14/sharedmoney-app/pull/487,Cursor,VERIFIED,All tests pass locally (npm test),,1,2026-11-11T10:47:51Z,2026-11-19T10:29:51+00:00
+https://github.com/OpenCoven/coven/pull/1727,Claude Code,VERIFIED,"The test passed in the full run at 5de10572, passed 5 of 5 times alone afterwards, and passed in the hosted Linux job.",,1,2026-11-11T11:02:06Z,2026-11-19T10:26:21+00:00
+https://github.com/iku-work/forge-saas/pull/102,Claude Code,VERIFIED,"web: 466 tests, all passing before the last fix (one test in the new files needed a findBy); the layout tests pass after it;",,1,2026-11-11T11:04:12Z,2026-11-19T10:26:18+00:00
+https://github.com/sachiniyer/agent-factory/pull/7090,Claude Code,MISMATCH,"In the same run, item 2's test passes on the fix head.","Test (Ubuntu 26.04, report-only)",1,2026-11-11T11:26:29Z,2026-11-19T10:26:16+00:00
+https://github.com/vitessio/vitess/pull/22045,Cursor,MISMATCH,"All 22 subtests passed, plus the flushlogs assertion.",Docker Test Cluster; Run endtoend tests on Cluster (18); Run endtoend tests on Cluster (21); Run endtoend tests on Cluster (tabletmanager_consul); Run endtoend tests on Cluster (vtgate_transaction),0,2026-11-11T11:27:19Z,2026-11-19T10:29:49+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9354,Claude Code,VERIFIED,"All tests are passing (unittest, etc.).",,1,2026-11-11T11:28:46Z,2026-11-19T10:26:13+00:00
+https://github.com/vitessio/vitess/pull/22046,Cursor,UNVERIFIABLE,Did the new or modified tests pass consistently locally and on CI?,,0,2026-11-11T11:30:36Z,2026-11-19T10:29:44+00:00
+https://github.com/vitessio/vitess/pull/22049,Cursor,UNVERIFIABLE,Did the new or modified tests pass consistently locally and on CI?,,0,2026-11-11T11:38:34Z,2026-11-19T10:29:38+00:00
+https://github.com/JannesEster/farming-game/pull/9,Cursor,VERIFIED,All 85 vitest tests pass; npm run build green.,,0,2026-11-11T11:40:36Z,2026-11-19T10:29:32+00:00
+https://github.com/vaibhavarora14/sharedmoney-app/pull/490,Cursor,VERIFIED,All tests pass locally (npm test in web/),,1,2026-11-11T11:41:14Z,2026-11-19T10:29:31+00:00
+https://github.com/vtno/agentlink/pull/43,Cursor,VERIFIED,"A pushed v tag builds one Linux Mix release, packages it for five targets, and publishes only after every native smoke test passes.",,1,2026-11-11T11:41:25Z,2026-11-19T10:29:29+00:00
+https://github.com/ferni-ai/voiceai/pull/3759,Claude Code,VERIFIED,"pnpm vitest run src/tools/handoff: 26 files, 392 tests passed",,1,2026-11-11T11:45:38Z,2026-11-19T10:26:11+00:00
+https://github.com/superhussain/factory/pull/253,Claude Code,VERIFIED,"The builder ran mise exec python@3.12 -- pnpm run test:cli, and all 639 tests passed on Python 3.12.16.",,1,2026-11-11T11:57:00Z,2026-11-19T10:25:14+00:00
+https://github.com/navendu10/rag-support-assistant/pull/9,Claude Code,VERIFIED,All 11 tests pass:,,1,2026-11-11T11:57:15Z,2026-11-19T10:25:13+00:00
+https://github.com/ravench/calibre-data/pull/82,Claude Code,VERIFIED,"python3 check.py passes on all 487 files, and all 162 tests pass.",,1,2026-11-11T11:59:30Z,2026-11-19T10:25:08+00:00
+https://github.com/henetiriki/kinscape/pull/740,Claude Code,VERIFIED,npm test -- --project database scripts/tests/account-add.test.ts scripts/tests/db-migrate.test.ts: all 13 tests pass.,,1,2026-11-11T11:59:38Z,2026-11-19T10:25:07+00:00
+https://github.com/pgoell/kasten/pull/1901,Claude Code,VERIFIED,"biome, tsc, check-file-size, check-comments and the todo unit tests pass locally.",,1,2026-11-11T11:59:38Z,2026-11-19T10:27:05+00:00
+https://github.com/parkerron1971-hash/kmj-intake-server/pull/1796,Claude Code,VERIFIED,All 119 email tests pass.,,1,2026-11-11T11:59:40Z,2026-11-19T10:25:05+00:00
+https://github.com/Gryt-chat/reports/pull/47,Claude Code,VERIFIED,"Checked: tsc, eslint, the comment check and all 135 tests pass, three of them new.",,1,2026-11-11T11:59:43Z,2026-11-19T10:25:03+00:00
+https://github.com/Hans-Peter60/BackPlaner/pull/87,Claude Code,VERIFIED,977 unit tests pass; skip android build compiles.,,1,2026-11-11T11:59:52Z,2026-11-19T10:27:03+00:00
+https://github.com/stablemates/workhorse/pull/1240,Claude Code,VERIFIED,"Document, schema, migration-statement, released-digest, and Python bindings tests, with 4 workers: 104 files, 2,151 tests pass.",,1,2026-11-11T11:59:52Z,2026-11-19T10:25:01+00:00
+https://github.com/Geuthur/aa-skillfarm/pull/262,Claude Code,VERIFIED,make tox-tests: 245 tests pass.,,1,2026-11-11T11:59:59Z,2026-11-19T10:27:01+00:00
+https://github.com/sgedda/mockifyer/pull/509,Cursor,VERIFIED,All unit tests pass after merge:,,0,2026-11-11T14:37:17Z,2026-11-19T10:30:16+00:00
+https://github.com/FyberLabs/s3r.ch/pull/327,Cursor,VERIFIED,"Validation: all 1,624 unit/contract tests pass; TypeScript passes.",,1,2026-11-11T14:55:41Z,2026-11-19T10:30:12+00:00
+https://github.com/MisterVerhoef/GameVault/pull/92,Cursor,VERIFIED,All tests pass (npm test),,1,2026-11-11T15:17:09Z,2026-11-19T10:30:07+00:00
+https://github.com/glukicov/perihelion/pull/1,Cursor,VERIFIED,"swift test --package-path PerihelionKit on Linux (Swift 6.2.3): all new synth tests passed (FFT round trip, impulse convolution, pad levels, pluck steps, knock, pluck-plus-reverb-tail, mute, deterministic renders, drone opening with flow).",,1,2026-11-11T15:34:56Z,2026-11-19T10:30:05+00:00
+https://github.com/jimmie-potts/agent-device-hub/pull/1716,Claude Code,VERIFIED,"Vitest: 35 files, 432 tests passed.",,1,2026-11-11T15:36:28Z,2026-11-19T10:26:23+00:00
+https://github.com/hoanghainh1188/governed-adlc-fw/pull/502,Claude Code,VERIFIED,"Lint, type check and tests pass locally / in CI (pnpm build && pnpm typecheck && pnpm lint && pnpm format:check && pnpm test, actionlint)",,1,2026-11-11T15:58:21Z,2026-11-19T10:25:29+00:00
+https://github.com/opendatahub-io/opendatahub-tests/pull/2693,Claude Code,VERIFIED,All 18 tests passed in a full run against a ROSA cluster with RHOAI 2.25.12.,,1,2026-11-11T15:58:54Z,2026-11-19T10:25:27+00:00
+https://github.com/hadron-memory/hadron-cli/pull/1922,Claude Code,VERIFIED,Item 4: one generic toEventDTOs helper replaces the two loops; existing usage tests pass unchanged.,,1,2026-11-11T15:59:03Z,2026-11-19T10:25:24+00:00
+https://github.com/Laraue/Laraue.Apps.LearnLanguage/pull/41,Claude Code,VERIFIED,All 72 integration tests pass locally.,,1,2026-11-11T15:59:06Z,2026-11-19T10:25:23+00:00
+https://github.com/Yukaii/misstype/pull/126,Claude Code,VERIFIED,"node tests/wasmtest.mjs: all 10 tests pass (55 exports match misstype.h, ABI 3).",,1,2026-11-11T15:59:11Z,2026-11-19T10:25:21+00:00
+https://github.com/dineshmj/EnterpriseWebPlatform_V3/pull/85,Claude Code,VERIFIED,All .NET tests pass (781).,,1,2026-11-11T15:59:12Z,2026-11-19T10:25:19+00:00
+https://github.com/autonomous-ai/openharness/pull/4061,Claude Code,VERIFIED,"npm run test:core on Node 24.3.0: 229 files, 3988 tests passed, 100% statements, branches, functions and lines.",,1,2026-11-11T15:59:36Z,2026-11-19T10:27:15+00:00
+https://github.com/GiuseppeScottoLavina/html-in-canvas-polyfill/pull/121,Claude Code,VERIFIED,"node scripts/check-repo.mjs, types and the 844 Node tests pass.",,1,2026-11-11T15:59:37Z,2026-11-19T10:27:13+00:00
+https://github.com/mohamed155/customer-service-chat-system/pull/72,Claude Code,VERIFIED,"Dashboard unit suite: 148 files, 1115 tests passed; pnpm lint, pnpm format:check and ng build dashboard pass; backend fmt, clippy and the four OpenAPI test files (18 tests) pass.",,1,2026-11-11T15:59:39Z,2026-11-19T10:27:11+00:00
+https://github.com/Swalliso/house-game/pull/57,Claude Code,VERIFIED,"npm test: 114 files, 2026 tests pass",,1,2026-11-11T15:59:40Z,2026-11-19T10:27:09+00:00
+https://github.com/gaiagitshare/gaia-healers-mobile-app/pull/328,Claude Code,VERIFIED,7/7 directory tests pass.,,1,2026-11-11T15:59:45Z,2026-11-19T10:27:07+00:00
+https://github.com/openbkn-ai/bkn-foundry/pull/3107,Claude Code,VERIFIED,Integration tests passed locally: built all three images for linux/arm64 and ran a static probe inside each as its runtime user (see notes).,,1,2026-11-11T15:59:57Z,2026-11-19T10:25:17+00:00
+https://github.com/MetaMask/metamask-mobile/pull/39511,Cursor,VERIFIED,Both new tests pass against the previous implementation.,,1,2026-11-11T19:19:19Z,2026-11-19T10:30:23+00:00
+https://github.com/finitecomputer/finite-mono/pull/1163,Claude Code,VERIFIED,"The full test passed 4/4 (3 of them at 2 CPUs), and a probe repeated the switcher click 30× inside the real test context and passed 30/30.",,1,2026-11-11T19:31:33Z,2026-11-19T10:26:28+00:00
+https://github.com/jgulick48/claude-harness/pull/9,Claude Code,VERIFIED,"Both end-to-end tests pass against the rebuilt v4 core, including remote.suggestDirs and the created directory appearing in recent.",,1,2026-11-11T19:34:36Z,2026-11-19T10:26:26+00:00
+https://github.com/deber116/on-device-decisioning-demo-site/pull/6,Cursor,VERIFIED,All new and existing tests passed.,,1,2026-11-11T19:46:40Z,2026-11-19T10:30:20+00:00
+https://github.com/KeenWill/signalbox/pull/2542,Cursor,VERIFIED,Validation: 56 PostgreSQL routing tests passed; actionlint and git diff --check passed.,,1,2026-11-11T19:47:54Z,2026-11-19T10:30:18+00:00
+https://github.com/ucbepic/actor-gatherer/pull/315,Claude Code,VERIFIED,"Full Python suite, frontend typecheck/lint/format/unit, and all Notes and apps e2e tests pass.",,1,2026-11-11T19:58:44Z,2026-11-19T10:25:38+00:00
+https://github.com/Bali-Zero/Rakyat/pull/210,Claude Code,VERIFIED,176 invoicing tests pass.,,1,2026-11-11T19:59:39Z,2026-11-19T10:27:27+00:00
+https://github.com/KNT048/vedette/pull/354,Claude Code,VERIFIED,"Now ~247 s, all tests pass, none weakened.",,1,2026-11-11T19:59:41Z,2026-11-19T10:25:37+00:00
+https://github.com/blip-box/guild/pull/29,Claude Code,VERIFIED,"After: 370 tests pass; pre-commit, zizmor (pedantic), actionlint and mypy are clean.",,1,2026-11-11T19:59:41Z,2026-11-19T10:27:25+00:00
+https://github.com/Finitless-com/ordering-components/pull/417,Claude Code,VERIFIED,The existing tests pass unedited.,,1,2026-11-11T19:59:44Z,2026-11-19T10:27:21+00:00
+https://github.com/weldsuite/weldsuite/pull/1543,Claude Code,VERIFIED,"cargo test: new unit tests (domain pattern, ownership record, checkrecord, offered ↔ adapter, edition flag) and the binary's /config.json tests pass; cargo clippy --tests -D warnings and cargo fmt --check clean.",,1,2026-11-11T19:59:44Z,2026-11-19T10:27:23+00:00
+https://github.com/radotzki/bullshit-wtf/pull/53,Claude Code,VERIFIED,"On 5cca6db: npm test in functions 126 pass, and the typed tests after them; the game client's lint, build and its 92 tests pass; the deploy scripts' tests pass.",,1,2026-11-11T19:59:45Z,2026-11-19T10:25:34+00:00
+https://github.com/timbermods/dam-good-maps/pull/1023,Claude Code,VERIFIED,"Checks: typecheck clean; force, forcesSitting and carve contract tests: 30 files, 223 tests pass; the spec passes (1.7 min).",,1,2026-11-11T19:59:49Z,2026-11-19T10:27:19+00:00
+https://github.com/human-centric-engineering/knowyoursynth/pull/212,Claude Code,VERIFIED,"Synth tests: 61 files, 2155 tests pass, goldens included.",,1,2026-11-11T19:59:55Z,2026-11-19T10:27:17+00:00
+https://github.com/Cap-go/capacitor-updater/pull/1015,Cursor,VERIFIED,The valid-candidate control still installs normally; all 40 coordination tests pass.,,1,2026-11-11T23:16:56Z,2026-11-19T10:30:35+00:00
+https://github.com/ALFRED-LUCIFER/medvya/pull/1077,Claude Code,VERIFIED,ArchitectureTests (classification) and SecurityTests pass.,,1,2026-11-11T23:22:09Z,2026-11-19T10:26:34+00:00
+https://github.com/jchugcodes/joehub/pull/42,Cursor,VERIFIED,"The finance month-total test and the tasks and grocery browser tests passed, including the group filter returning to All from the All pill.",,1,2026-11-11T23:35:23Z,2026-11-19T10:30:33+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/5701,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-11T23:53:11Z,2026-11-19T10:30:31+00:00
+https://github.com/danglayloi1/dangopoly/pull/46,Claude Code,VERIFIED,419 tests pass; npm run build passes.,,1,2026-11-11T23:54:02Z,2026-11-19T10:26:31+00:00
+https://github.com/brandonmcconnell/geld/pull/641,Cursor,VERIFIED,Typecheck and all extension tests pass (831).,,1,2026-11-11T23:56:29Z,2026-11-19T10:30:29+00:00
+https://github.com/in-the-midst-of-the-markets/midst-studio/pull/203,Cursor,UNVERIFIABLE,"The Mixpanel provider test passes, and the lines under src/lib/db/providers/sql/mixpanel/ are covered by that file.",,1,2026-11-11T23:57:16Z,2026-11-19T10:30:27+00:00
+https://github.com/zortos293/Lichii/pull/1407,Claude Code,VERIFIED,All [shadercachev2] tests pass.,,1,2026-11-11T23:57:53Z,2026-11-19T10:25:49+00:00
+https://github.com/andyrub18/kadans/pull/106,Claude Code,VERIFIED,All 335 client tests pass.,,1,2026-11-11T23:58:49Z,2026-11-19T10:25:44+00:00
+https://github.com/bstoney-yt/Mercenaries-2-Decompilation/pull/526,Claude Code,VERIFIED,"cargo fmt --check, cargo clippy -p m2-alpha --all-targets -- -D warnings and the crate's tests pass locally.",,1,2026-11-11T23:59:27Z,2026-11-19T10:25:42+00:00
+https://github.com/Medical-Event-Data-Standard/medical-event-data-standard.github.io/pull/136,Claude Code,VERIFIED,"npx jest --testPathIgnorePatterns '<rootDir/.claude/' '/nodemodules/': 45 suites, 726 tests pass",,1,2026-11-11T23:59:42Z,2026-11-19T10:27:39+00:00
+https://github.com/nickysemenza/cubby/pull/4017,Claude Code,VERIFIED,"test:postgres on the financial-transaction, transaction-import, generic/suggestions, purchase and expense paths: 107 files and 1,173 tests pass.",,1,2026-11-11T23:59:47Z,2026-11-19T10:27:33+00:00
 https://github.com/Northeastern-Electric-Racing/Argos/pull/971,Claude Code,VERIFIED,"Lint, format and tests pass",,0,2026-11-12T03:27:56Z,2026-11-19T09:05:49+00:00
 https://github.com/agentfront/enclave/pull/110,Claude Code,VERIFIED,"Security tests in summary mode: case suite 161 of 161; ast 823, core 1956 and browser 43 tests pass.",,1,2026-11-12T03:39:53Z,2026-11-19T09:05:48+00:00
 https://github.com/Xerilium/stack/pull/135,Claude Code,VERIFIED,vitest: all web unit tests pass.,,1,2026-11-12T03:57:44Z,2026-11-19T09:04:40+00:00
@@ -279,7 +379,7 @@ https://github.com/johnfrog76/code-sleuth/pull/82,Claude Code,VERIFIED,"npm test
 https://github.com/cacheplane/threadplane/pull/1576,Claude Code,MISMATCH,"nx run-many -t test,type-tests,lint,build -p react,content: 1236 React tests pass, lint has warnings only.",CI — required; Website — e2e (control-plane); Website — lint / test / build,1,2026-11-12T23:59:51Z,2026-11-19T09:05:37+00:00
 https://github.com/openzigs/metis/pull/2408,Claude Code,VERIFIED,"ui pnpm test:coverage (80% thresholds): exit 0, 606 files and 7,509 tests passed.",,1,2026-11-12T23:59:51Z,2026-11-19T09:07:16+00:00
 https://github.com/CMCHSGit/cmchs-internal-hub/pull/35,Claude Code,VERIFIED,"Verified locally in a clean worktree: build passes, all 9 apps' tests pass.",,1,2026-11-12T23:59:53Z,2026-11-19T09:05:34+00:00
-https://github.com/josaum/parsers-rs/pull/41,Claude Code,MISMATCH,"Format, clippy with -D warnings and tests pass.",cargo-audit,1,2026-11-12T23:59:59Z,2026-11-19T09:07:15+00:00
+https://github.com/josaum/parsers-rs/pull/41,Claude Code,VERIFIED,"Format, clippy with -D warnings and tests pass.",,1,2026-11-12T23:59:59Z,2026-11-19T09:07:15+00:00
 https://github.com/airbytehq/airbyte/pull/92790,Devin,VERIFIED,All 292 discovered destination unit tests pass after the fix; scoped pre-commit hooks and Spotless pass.,,0,2026-11-13T00:02:23Z,2026-11-19T08:59:16+00:00
 https://github.com/ericksoni716/daily-clother/pull/37,Copilot,VERIFIED,"Packaged program: built on Linux; the smoke test passes and reports ""drawing ok"".",,1,2026-11-13T00:08:57Z,2026-11-19T09:02:16+00:00
 https://github.com/airbytehq/airbyte/pull/92837,Devin,MISMATCH,"Existing missing-scope, rate-limit and pagination tests pass.",Connector CI Checks Summary; Test source-outreach Connector; `source-outreach` Connector Test Results,0,2026-11-13T00:44:14Z,2026-11-19T08:59:13+00:00
@@ -334,7 +434,6 @@ https://github.com/pipeshub-ai/pipeshub-ai/pull/5741,Cursor,UNVERIFIABLE,"Tests:
 https://github.com/coincubetech/coincube/pull/1214,Cursor,VERIFIED,Validation: all 25 current namespace tests pass before and after; formatting and strict default/regtest-harness Clippy pass.,,1,2026-11-13T10:16:44Z,2026-11-19T08:56:25+00:00
 https://github.com/HYBAAIDATA/ChronusQiGPU/pull/47,Copilot,MISMATCH,"python3 -m unittest tests.testturingmcpadapter — 20 tests passed locally, including Bell probabilities 0.5 / 0.5 through calltool(""executecircuit"").",Python 3.13 tests,1,2026-11-13T10:29:15Z,2026-11-19T09:02:44+00:00
 https://github.com/langfuse/langfuse/pull/20184,Cursor,VERIFIED,"On the previous head, all 14 non-Azure tests passed in CI.",,1,2026-11-13T10:30:30Z,2026-11-19T08:56:22+00:00
-https://github.com/elevate-for-humanity/Elevate-lms/pull/2601,Devin,MISMATCH,The same test passed on Nov 2 (run 41477857180) before the menu was added.,Accessibility Tests; E2E Enrollment Flow,1,2026-11-13T10:40:07Z,2026-11-19T09:00:41+00:00
 https://github.com/warrent9030-maker/newmen-gm840-wake-fix/pull/1,Devin,VERIFIED,All 11 tests pass locally (python -m unittest discover -s tests -v).,,1,2026-11-13T10:53:11Z,2026-11-19T08:59:35+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5742,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-13T10:57:15Z,2026-11-19T08:56:18+00:00
 https://github.com/mitunmanav/sonora/pull/4,Devin,VERIFIED,Reported checks: 150 unit tests passed; app and Files perf builds completed; site checked in headless Chrome at 1440 px and 390 px.,,0,2026-11-13T11:05:08Z,2026-11-19T09:00:37+00:00
@@ -406,7 +505,7 @@ https://github.com/mdwn/mtrack/pull/741,Claude Code,VERIFIED,"Locally: clippy cl
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5755,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-13T20:53:58Z,2026-11-19T08:57:15+00:00
 https://github.com/azuline/rose/pull/186,Devin,VERIFIED,"With this change and the same injected delay, the test passes.",,0,2026-11-13T21:19:09Z,2026-11-19T09:00:07+00:00
 https://github.com/ericksoni716/daily-clother/pull/125,Copilot,VERIFIED,"Their queries and return values are unchanged, and the existing tests pass unmodified.",,1,2026-11-13T22:24:59Z,2026-11-19T09:03:11+00:00
-https://github.com/in-the-midst-of-the-markets/midst-studio/pull/213,Cursor,MISMATCH,All existing tests pass,Engine Smoke - Build Payload,1,2026-11-13T22:39:03Z,2026-11-19T08:56:54+00:00
+https://github.com/in-the-midst-of-the-markets/midst-studio/pull/213,Cursor,UNVERIFIABLE,All existing tests pass,,1,2026-11-13T22:39:03Z,2026-11-19T08:56:54+00:00
 https://github.com/Limen-Neural/brainstem-daemon/pull/110,Devin,VERIFIED,"On Rust 1.99.0: cargo fmt, cargo clippy, cargo build, and cargo test pass with --locked and with --all-features (166 and 189 tests passed respectively, plus smoke tests).",,0,2026-11-13T22:42:36Z,2026-11-19T09:00:05+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5759,Cursor,VERIFIED,Unit tests pass,,1,2026-11-13T22:42:38Z,2026-11-19T08:56:51+00:00
 https://github.com/MetaMask/metamask-mobile/pull/39759,Cursor,VERIFIED,All 17 tests pass unchanged against the previous implementation.,,1,2026-11-13T22:44:26Z,2026-11-19T08:56:49+00:00
@@ -493,7 +592,6 @@ https://github.com/BeehiveInnovations/pal-mcp-server/pull/496,Claude Code,MISMAT
 https://github.com/BeehiveInnovations/pal-mcp-server/pull/497,Claude Code,MISMATCH,"All unit tests pass (pytest tests/ -m ""not integration"": 868 passed, 4 skipped)",test (3.12),0,2026-11-14T10:44:50Z,2026-11-18T19:25:29+00:00
 https://github.com/shaw-andy/grafana/pull/400,Cursor,VERIFIED,"With the tests from 392, with the fix: all 3 subtests pass.",,0,2026-11-14T10:45:06Z,2026-11-18T19:30:00+00:00
 https://github.com/pokle/glidecomp/pull/856,Claude Code,VERIFIED,bun run test:e2e:ssr — the 53 server-HTML tests pass.,,1,2026-11-14T10:45:33Z,2026-11-18T19:25:26+00:00
-https://github.com/Fryuni/t3code/pull/90,Claude Code,VERIFIED,Upstream's new ThreadDetailsPanel and useComposerSelection browser tests now pass the fork's props.,,1,2026-11-14T10:46:08Z,2026-11-18T19:25:24+00:00
 https://github.com/CarworX/carworx-new/pull/121,Claude Code,VERIFIED,"pnpm run check: lint, format, types, build and 568/568 unit tests passed.",,1,2026-11-14T10:53:20Z,2026-11-18T19:25:21+00:00
 https://github.com/megaeth-labs/salt/pull/162,Claude Code,VERIFIED,"On the EPYC host, with the test binary of 79f763f (it also carried the timing harness, whose tests are ignored): banderwagon's tests pass with BANDERWAGONREQUIREIFMA=1, so the lane tests ran.",,1,2026-11-14T10:56:43Z,2026-11-18T19:25:19+00:00
 https://github.com/coincubetech/coincube/pull/1246,Cursor,VERIFIED,"The Windows unit suite can exhaust its two-hour budget after its main tests pass, leaving native boundary tests unfinished.",,1,2026-11-14T11:00:33Z,2026-11-18T19:29:55+00:00
@@ -574,7 +672,6 @@ https://github.com/Arenukvern/oka/pull/32,Cursor,VERIFIED,31 leak-scan parity an
 https://github.com/LHagfoss/rustcode/pull/3722,Cursor,VERIFIED,"bun run check in apps/desktop: typecheck, lint, 2575 tests pass, build.",,1,2026-11-14T19:15:39Z,2026-11-18T19:30:45+00:00
 https://github.com/Geoffe-Ga/reconcile/pull/466,Claude Code,VERIFIED,"Vitest: 353 files and 7,616 tests pass.",,1,2026-11-14T19:24:53Z,2026-11-18T19:25:54+00:00
 https://github.com/Malekkz/MBox/pull/46,Claude Code,VERIFIED,All tests pass on both,,1,2026-11-14T19:27:37Z,2026-11-18T19:25:52+00:00
-https://github.com/windingwind/web-falcor/pull/42,Claude Code,VERIFIED,"typecheck is clean, and the unit tests pass the same on both (429 passed, 5 skipped).",,1,2026-11-14T19:30:24Z,2026-11-18T19:25:51+00:00
 https://github.com/glennmcd/commitment-tracker-ai/pull/44,Claude Code,VERIFIED,"Lint, typecheck and tests pass locally: bun run lint, bun run typecheck, bun run test (266 Vitest tests, all passing).",,1,2026-11-14T19:36:28Z,2026-11-18T19:25:49+00:00
 https://github.com/leamonline/Smarter-dog-bookings/pull/1216,Cursor,VERIFIED,"vitest run --coverage: 490 files, 5,457 tests passed.",,1,2026-11-14T19:48:40Z,2026-11-18T19:33:09+00:00
 https://github.com/aturcsan/rakazo/pull/8,Cursor,VERIFIED,"MCP transport and OAuth tests passed after the test was updated for the 1.32 issuer stamp (client information is persisted with the authorization server, then the refreshed tokens).",,0,2026-11-14T19:48:48Z,2026-11-18T19:33:07+00:00
@@ -818,7 +915,6 @@ https://github.com/renegadedynamics/swarf/pull/30,Claude Code,MISMATCH,"All test
 https://github.com/kenlasko/monize/pull/2228,Claude Code,VERIFIED,"Verification: I ran the whole desktop Jest suite, which is small (67 suites, 822 tests passed), plus npm run lint, npm run typecheck and node scripts/check-docs-manifests.mjs, all clean.",,1,2026-11-15T23:58:10Z,2026-11-18T19:09:23+00:00
 https://github.com/snicolast/LostWorldNative/pull/140,Claude Code,VERIFIED,"Windows build (build.bat), all 19 ctest tests pass.",,1,2026-11-15T23:58:28Z,2026-11-18T19:09:18+00:00
 https://github.com/traust-security/traust-contracts/pull/165,Claude Code,VERIFIED,"All contracts tests pass (2,918).",,1,2026-11-15T23:58:34Z,2026-11-18T19:09:17+00:00
-https://github.com/Mikecranesync/MIRA/pull/5569,Claude Code,VERIFIED,"207 autoeval tests pass; tests/eval/autoevalmutate.py MUTATION PROOF: PASS, 59 of 59 rows red",,0,2026-11-15T23:58:59Z,2026-11-18T19:09:15+00:00
 https://github.com/PilaScat/cinema-watch/pull/54,Claude Code,VERIFIED,"Checks: 1273 tests passed, tsc --noEmit clean, lint clean, build ok.",,1,2026-11-15T23:59:30Z,2026-11-18T19:11:28+00:00
 https://github.com/fryanpan/claude-workspaces-plugin/pull/1695,Claude Code,VERIFIED,"MCP: 111 files, 1172 tests pass.",,1,2026-11-15T23:59:31Z,2026-11-18T19:11:24+00:00
 https://github.com/jason-easyazz/zoe-ai-assistant/pull/2660,Claude Code,VERIFIED,"The same 2,563 tests pass with the default TZ and again with TZ=UTC:",,0,2026-11-15T23:59:31Z,2026-11-18T19:11:26+00:00
@@ -846,7 +942,6 @@ https://github.com/pipeshub-ai/pipeshub-ai/pull/5873,Claude Code,UNVERIFIABLE,Un
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5874,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-16T03:23:36Z,2026-11-18T18:57:08+00:00
 https://github.com/eps5000/task-lite/pull/19,Claude Code,VERIFIED,"[claude] setchecks {""id"":""RCP-17"",""runid"":""run…"",""checks"":[{""text"":""Planner tests pass""}]}",,1,2026-11-16T03:30:12Z,2026-11-18T18:53:01+00:00
 https://github.com/rchau73/optionsBot/pull/807,Claude Code,VERIFIED,"cmd/stress, cmd/compare and the backtests compile and their tests pass.",,1,2026-11-16T03:45:27Z,2026-11-18T18:52:59+00:00
-https://github.com/masumi-network/sokosumi/pull/7265,Cursor,VERIFIED,Tests now pass that cookie value into parseFilesViewMode.,,1,2026-11-16T03:48:09Z,2026-11-18T19:00:03+00:00
 https://github.com/ethanteng/helloporch/pull/204,Cursor,MISMATCH,"iOS: all 169 tests pass on an iPad simulator, including new ones for palette contrast, which fonts load where, button title size, and the font licenses.",iPad tests and screenshots; iPhone tests and screenshot,1,2026-11-16T03:48:14Z,2026-11-18T18:57:01+00:00
 https://github.com/007darkmatter5/plexbridge/pull/4,Cursor,VERIFIED,"279 tests passed, including suffix matching for Linux and Windows paths.",,1,2026-11-16T03:49:26Z,2026-11-18T19:00:01+00:00
 https://github.com/masumi-network/sokosumi/pull/7270,Cursor,VERIFIED,"Vitest in apps/core: 4 files, 32 tests passed (jobs/get, agents/[id]/jobs/get, tag-suggestions/post, helpers/job).",,1,2026-11-16T03:50:49Z,2026-11-18T18:59:59+00:00
@@ -871,7 +966,6 @@ https://github.com/arii/tech-dancer/pull/4883,Devin,VERIFIED,"pnpm exec tsc --no
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5884,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-16T06:28:24Z,2026-11-18T18:59:35+00:00
 https://github.com/shaw-andy/grafana/pull/584,Cursor,VERIFIED,"The PR 581 tests with this fix applied (go test -run TestGitHubTeamIDs ./pkg/login/social/connectors/ ./pkg/services/ssosettings/strategies/): all 7 tests pass, 14 cases including subtests.",,0,2026-11-16T06:29:51Z,2026-11-18T18:57:33+00:00
 https://github.com/superhighfives/pika/pull/351,Cursor,VERIFIED,"Both targets build, SwiftLint is clean on the changed files, and all 347 unit tests pass.",,0,2026-11-16T06:39:23Z,2026-11-18T18:57:30+00:00
-https://github.com/jguluarte/ntm/pull/287,Claude Code,VERIFIED,writes to the path it is given: the save test passes a temporary file instead,,1,2026-11-16T06:54:24Z,2026-11-18T18:53:24+00:00
 https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/432,Cursor,VERIFIED,All tests pass,,1,2026-11-16T07:07:22Z,2026-11-18T18:57:28+00:00
 https://github.com/infobloxopen/terraform-provider-infoblox/pull/750,Claude Code,VERIFIED,"13/13 acceptance subtests passing against a live shared grid (basic CRUD, comment/name/tags updates, networkcompliance set + unset-path, dynamicallocation chaining, datasource filters, list filters)",,0,2026-11-16T07:13:50Z,2026-11-18T18:53:22+00:00
 https://github.com/first-tree-ai/first-tree/pull/2455,Claude Code,VERIFIED,pnpm --filter @first-tree/client exec vitest run: 226 files / 2977 tests pass.,,1,2026-11-16T07:25:40Z,2026-11-18T18:53:18+00:00
@@ -939,8 +1033,8 @@ https://github.com/basil-one/agency/pull/63,Copilot,VERIFIED,"Final-head hosted 
 https://github.com/Cap-go/Capve/pull/63,Cursor,VERIFIED,✅ All tests pass,,1,2026-11-16T14:14:52Z,2026-11-18T18:58:41+00:00
 https://github.com/Cap-go/Capve/pull/64,Cursor,VERIFIED,All tests pass locally (bun run test – 330 tests):,,1,2026-11-16T14:19:29Z,2026-11-18T18:58:39+00:00
 https://github.com/shaw-andy/grafana/pull/608,Cursor,VERIFIED,With this fix: all 8 tests pass.,,0,2026-11-16T14:23:42Z,2026-11-18T18:58:37+00:00
-https://github.com/COG-GTM/metamask-mobile/pull/2249,Devin,MISMATCH,NODEENV=test nodemodules/.bin/jest app/components/UI/Swaps/utils/index.test.js --coverage=false (37 tests pass),scripts (audit:ci); unit-tests (3),0,2026-11-16T14:25:08Z,2026-11-18T19:02:52+00:00
-https://github.com/COG-GTM/metamask-mobile/pull/2293,Devin,MISMATCH,All 7 tests pass.,scripts (audit:ci); unit-tests (8),0,2026-11-16T14:28:09Z,2026-11-18T19:02:47+00:00
+https://github.com/COG-GTM/metamask-mobile/pull/2249,Devin,MISMATCH,NODEENV=test nodemodules/.bin/jest app/components/UI/Swaps/utils/index.test.js --coverage=false (37 tests pass),unit-tests (3),0,2026-11-16T14:25:08Z,2026-11-18T19:02:52+00:00
+https://github.com/COG-GTM/metamask-mobile/pull/2293,Devin,MISMATCH,All 7 tests pass.,unit-tests (8),0,2026-11-16T14:28:09Z,2026-11-18T19:02:47+00:00
 https://github.com/sachinchandra/aloof/pull/16,Cursor,VERIFIED,All 839 tests pass,,1,2026-11-16T14:37:00Z,2026-11-18T18:58:33+00:00
 https://github.com/exergy-connect/33audio.com/pull/6,Cursor,VERIFIED,"All 22 tests passed, and the Stripe-mode cart controls render in the theme.",,1,2026-11-16T14:46:49Z,2026-11-18T18:58:30+00:00
 https://github.com/fallow-rs/fallow/pull/4633,Cursor,VERIFIED,All tests pass.,,1,2026-11-16T14:47:02Z,2026-11-18T18:58:28+00:00
@@ -985,7 +1079,6 @@ https://github.com/pipeshub-ai/pipeshub-ai/pull/5925,Cursor,UNVERIFIABLE,"The \p
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5926,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-16T19:16:25Z,2026-11-18T18:58:56+00:00
 https://github.com/OMG-Software/Persephone/pull/60,Claude Code,VERIFIED,"python tools/dev.py frontend --offline: svelte-check 0 errors, 313 Node tests passed",,1,2026-11-16T19:23:36Z,2026-11-18T18:54:17+00:00
 https://github.com/Duncan-Haywood/oss-monorepo/pull/16677,Claude Code,VERIFIED,The survival-analysis tests pass with its new sibling link.,,1,2026-11-16T19:25:51Z,2026-11-18T18:54:15+00:00
-https://github.com/Escherbridge/plantcommerce/pull/56,Cursor,VERIFIED,Tests pass a client that throws and assert the default path never calls it.,,0,2026-11-16T19:27:34Z,2026-11-18T18:58:53+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/5927,Claude Code,UNVERIFIABLE,Unit tests pass,,1,2026-11-16T19:29:49Z,2026-11-18T18:54:13+00:00
 https://github.com/flexprice/flexprice/pull/3461,Devin,VERIFIED,All new and existing tests pass.,,0,2026-11-16T19:33:30Z,2026-11-18T19:03:01+00:00
 https://github.com/IbhaX/FreeLLMChat/pull/92,Devin,VERIFIED,300 tests pass.,,1,2026-11-16T19:34:11Z,2026-11-18T19:02:59+00:00
@@ -1329,7 +1422,6 @@ https://github.com/vibhu2208/rfq-to-quote/pull/14,Cursor,UNVERIFIABLE,npm test �
 https://github.com/generaltranslation/gt/pull/2916,Cursor,VERIFIED,"The existing translation-check tests pass unchanged, so what checkTranslation and checkIcuTranslation report is the same.",,1,2026-11-18T23:55:48Z,2026-11-19T09:41:40+00:00
 https://github.com/ImperaLuna/Nova-Files/pull/263,Claude Code,VERIFIED,All gathered window tests pass one at a time.,,1,2026-11-18T23:57:14Z,2026-11-19T09:37:41+00:00
 https://github.com/5cisummai/freeappractice/pull/218,Cursor,VERIFIED,"bun run test:unit — 163 files, 763 tests passed",,0,2026-11-18T23:57:27Z,2026-11-19T09:43:24+00:00
-https://github.com/rezono-lang/rezono/pull/653,Claude Code,VERIFIED,These are marked expected-red and wait for testclosedmonthrequiresreceiptinventory; the change to run/closedmonth.py that turns that test green lifts all marks together.,,1,2026-11-18T23:57:36Z,2026-11-19T09:37:37+00:00
 https://github.com/hgw3lls/Openfloor/pull/9,Claude Code,VERIFIED,npm test: 34 tests pass.,,1,2026-11-18T23:59:30Z,2026-11-19T09:39:18+00:00
 https://github.com/Spaire-Tech/Claidor/pull/856,Claude Code,VERIFIED,"vitest run: 1,391 tests pass.",,1,2026-11-18T23:59:31Z,2026-11-19T09:37:31+00:00
 https://github.com/SupportTools/GoClusterFS/pull/234,Claude Code,VERIFIED,"The soak tests pass on .66, and golangci-lint v2.15.0 reports 0 issues.",,1,2026-11-18T23:59:43Z,2026-11-19T09:39:14+00:00
