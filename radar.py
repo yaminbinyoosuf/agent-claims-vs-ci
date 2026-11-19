@@ -52,7 +52,7 @@ TESTISH = re.compile(r"test|spec|e2e|unit|integration|pytest|jest|vitest|playwri
 NOT_TESTISH = re.compile(r"deploy|preview|vercel|netlify|cloudflare|workers|pages|codecov|coverage|label|title|"
                          r"semantic|commitlint|changeset|cla\b|license|dependabot|stale|docs?\b|lighthouse|"
                          r"claude|review|cursor|devin|copilot|bugbot|danger|size|audit|deny|sbom|security|advisory|drift|"
-                         r"codeql|scorecard|osv|secret|vulnerab", re.I)
+                         r"codeql|scorecard|osv|secret|vulnerab|\brules\b|policy|ledger", re.I)
 BAD = {"failure", "timed_out"}
 # Anywhere in the sentence: the agent disclosed a failure or exception, or named a check rather than claiming.
 DISCLOSED = re.compile(r"\bexcept\b|\bfail|\bbut\b|\bskipp?ed\s+\d|tests?\s+pass\s+(failure|check|job)|"
@@ -62,7 +62,29 @@ DISCLOSED = re.compile(r"\bexcept\b|\bfail|\bbut\b|\bskipp?ed\s+\d|tests?\s+pass
 PARTIAL = re.compile(r"(\d[\d,]*)\s*(?:of|out of|/)\s*(\d[\d,]*)", re.I)
 # Roll-up checks that only report other checks. If nothing but these failed, we can't say a test failed.
 ROLLUP = re.compile(r"^(ci[\s_-]*(required|result|passed|status|success|complete|ok)|required|results?|"
-                    r".*\bsummary|all[\s_-]*(checks|jobs|green)|check[\s_-]*status|status)$", re.I)
+                    r".*\bsummary|.*completion[\s_-]*status|all[\s_-]*(checks|jobs|green)|check[\s_-]*status|status)$", re.I)
+
+
+# Only unqualified claims count: "All tests pass", "Tests pass", "All 600 tests pass", "New and existing unit
+# tests pass". A sentence that names its own scope ("16 targeted tests pass", "the new test passed",
+# "npm test -- foo: 33 tests pass", "All 600 tests pass on Linux") is an honest report of what ran, not a
+# claim about the PR, so it is left out of every number.
+LABEL = re.compile(r"^\W*(?:(?:validation|verification|checks?|tests?|testing|test plan|test results?|results?|"
+                   r"status|total|summary|ci)\s*[:\-\u2014]+)?", re.I)
+GENERAL_WORDS = {"all", "and", "the", "existing", "unit", "of", "so", "now", "both"}
+SCOPED_SUFFIX = re.compile(r"^\W*(?:only\b|on\s+(?:linux|mac\w*|windows|ubuntu|ios|android|an?\s|the\s|python|node)|"
+                           r"in\s+(?:the\s+)?[\w./-]+\s+(?:module|package|crate|suite|file|folder|directory)|"
+                           r"for\s+(?:the\s+)?[\w./-]+\s+(?:module|package|crate))", re.I)
+
+
+def scoped(claim: str) -> bool:
+    m = CLAIM.search(claim)
+    if not m:
+        return True
+    pre = LABEL.sub("", claim[:m.start()], count=1)
+    pre = re.sub(r"(?i)\bnew\s+and\s+existing\b|\bexisting\s+and\s+new\b", " ", pre)  # "the new test" stays scoped
+    words = re.sub(r"[^\w\s]", " ", pre).lower().split()
+    return any(w not in GENERAL_WORDS for w in words) or bool(SCOPED_SUFFIX.match(claim[m.end():]))
 
 
 def partial(claim: str) -> bool:
@@ -254,7 +276,8 @@ def judged_rows(conn):
                 fails[(repo, n)] = fails.get((repo, n), 0) + 1
     for r in conn.execute("SELECT * FROM radar"):
         claim = r["claim"] or ""
-        if not CLAIM.search(claim) or claim.lstrip().startswith("|") or DISCLOSED.search(claim) or partial(claim):
+        if not CLAIM.search(claim) or claim.lstrip().startswith("|") or DISCLOSED.search(claim) or partial(claim) \
+                or scoped(claim):
             continue  # rows stored before a claim-filter fix
         row = dict(r)
         names = [n for n in row_failed(row) if testish(n)]  # re-apply today's test/build filter to stored rows

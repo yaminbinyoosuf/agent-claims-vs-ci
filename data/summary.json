@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:18:53+00:00",
+ "updated": "2026-11-19T12:47:23+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -21,87 +21,49 @@
   "2026-11-18"
  ],
  "total": {
-  "verified": 2233,
-  "mismatch": 116,
-  "unverifiable": 196,
-  "judged": 2349,
-  "rate": 4.9
+  "verified": 402,
+  "mismatch": 19,
+  "unverifiable": 119,
+  "judged": 421,
+  "rate": 4.5
  },
  "agents": {
   "Claude Code": {
-   "verified": 1053,
-   "mismatch": 49,
-   "unverifiable": 37,
-   "judged": 1102,
-   "rate": 4.4
+   "verified": 163,
+   "mismatch": 7,
+   "unverifiable": 27,
+   "judged": 170,
+   "rate": 4.1
   },
   "Cursor": {
-   "verified": 664,
-   "mismatch": 29,
-   "unverifiable": 120,
-   "judged": 693,
-   "rate": 4.2
+   "verified": 169,
+   "mismatch": 9,
+   "unverifiable": 90,
+   "judged": 178,
+   "rate": 5.1
   },
   "Devin": {
-   "verified": 333,
-   "mismatch": 24,
-   "unverifiable": 26,
-   "judged": 357,
-   "rate": 6.7
+   "verified": 46,
+   "mismatch": 2,
+   "unverifiable": 2,
+   "judged": 48,
+   "rate": 4.2
   },
   "Copilot": {
-   "verified": 183,
-   "mismatch": 14,
-   "unverifiable": 13,
-   "judged": 197,
-   "rate": 7.1
+   "verified": 24,
+   "mismatch": 1,
+   "unverifiable": 0,
+   "judged": 25,
+   "rate": 4.0
   }
  },
  "failed_kind": {
-  "End-to-end / integration": 20,
-  "Unit / other tests": 70,
-  "Build": 26
+  "Build": 4,
+  "Unit / other tests": 13,
+  "End-to-end / integration": 2
  },
- "merged_with_failing_tests": 70,
+ "merged_with_failing_tests": 9,
  "cases": [
-  {
-   "pr_url": "https://github.com/beresdowds-afk/CurriculumServer-/pull/18",
-   "agent": "Copilot",
-   "claim": "Focused AI, textbook, acceptance, and Phase 1 authorization tests passed: 52/52.",
-   "failed": [
-    "Typecheck, PostgreSQL tests, and production builds"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-18T20:41:05Z",
-   "checked_at": "2026-11-19T09:47:31+00:00"
-  },
-  {
-   "pr_url": "https://github.com/Ogard-Labs/octant/pull/2679",
-   "agent": "Claude Code",
-   "claim": "Web useComposerAtMenu tests pass.",
-   "failed": [
-    "Server Full access tests on Windows"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-18T19:59:37Z",
-   "checked_at": "2026-11-19T09:39:12+00:00"
-  },
-  {
-   "pr_url": "https://github.com/matter-labs/era-contracts/pull/2689",
-   "agent": "Claude Code",
-   "claim": "The v35 registry manifest is regenerated locally from those chain states, and the recurring upgrade test passes against it.",
-   "failed": [
-    "test-foundry",
-    "upgrade-test",
-    "upgrade-test-glamsterdam"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-18T11:59:31Z",
-   "checked_at": "2026-11-19T09:38:59+00:00"
-  },
   {
    "pr_url": "https://github.com/sjiyoungan/Mybudget/pull/6",
    "agent": "Cursor",
@@ -113,169 +75,6 @@
    "merged": true,
    "pr_created": "2026-11-18T03:55:55Z",
    "checked_at": "2026-11-19T09:41:57+00:00"
-  },
-  {
-   "pr_url": "https://github.com/zeronsh/zeron/pull/1503",
-   "agent": "Cursor",
-   "claim": "All harness tests pass.",
-   "failed": [
-    "CI result",
-    "linux-core / core-tests"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-17T23:48:31Z",
-   "checked_at": "2026-11-18T18:44:46+00:00"
-  },
-  {
-   "pr_url": "https://github.com/duplicati/ngclient/pull/752",
-   "agent": "Claude Code",
-   "claim": "bun run test:ci: 2461 tests passed.",
-   "failed": [
-    "browser-tests"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-17T11:59:55Z",
-   "checked_at": "2026-11-18T18:41:53+00:00"
-  },
-  {
-   "pr_url": "https://github.com/duplicati/ngclient/pull/751",
-   "agent": "Claude Code",
-   "claim": "bun run test:ci: 2464 tests passed.",
-   "failed": [
-    "browser-tests"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-17T11:59:03Z",
-   "checked_at": "2026-11-18T18:40:31+00:00"
-  },
-  {
-   "pr_url": "https://github.com/microsoft/mssql-rs/pull/876",
-   "agent": "Cursor",
-   "claim": "56 Rust Arrow adapter tests and 11 Python bridge tests passed.",
-   "failed": [
-    "mssql-rs Pull request validation (Build Stage Test MacOS)"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-17T07:23:29Z",
-   "checked_at": "2026-11-19T08:32:30+00:00"
-  },
-  {
-   "pr_url": "https://github.com/ai-dynamo/snapshot/pull/975",
-   "agent": "Claude Code",
-   "claim": "helm unittest charts/snapshot: 15 suites, 116 tests pass.",
-   "failed": [
-    "GPU / Run Snapshot e2e tests in vCluster",
-    "PR E2E"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": false,
-   "pr_created": "2026-11-17T03:59:52Z",
-   "checked_at": "2026-11-18T18:41:43+00:00"
-  },
-  {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2249",
-   "agent": "Devin",
-   "claim": "NODEENV=test nodemodules/.bin/jest app/components/UI/Swaps/utils/index.test.js --coverage=false (37 tests pass)",
-   "failed": [
-    "unit-tests (3)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-16T14:25:08Z",
-   "checked_at": "2026-11-18T19:02:52+00:00"
-  },
-  {
-   "pr_url": "https://github.com/SuperTost100/politost-pyxis/pull/491",
-   "agent": "Claude Code",
-   "claim": "The new test passed 10 of 10 under the same slowdown.",
-   "failed": [
-    "test mac-arm64 (2/4)",
-    "test mac-arm64 (4/4)",
-    "test mac-x64 (4/4)",
-    "test windows-x64 (2/4)",
-    "test windows-x64 (4/4)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-16T11:46:10Z",
-   "checked_at": "2026-11-18T18:53:30+00:00"
-  },
-  {
-   "pr_url": "https://github.com/asap-protocol/shellclaw/pull/146",
-   "agent": "Cursor",
-   "claim": "After the fix, ./build/testhardwarecamera prints All hardwarecamera tests passed.",
-   "failed": [
-    "static, test, release"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-16T11:17:18Z",
-   "checked_at": "2026-11-18T18:57:47+00:00"
-  },
-  {
-   "pr_url": "https://github.com/daydalek/Maltoria/pull/7",
-   "agent": "Devin",
-   "claim": "cargo build and the related cargo tests pass.",
-   "failed": [
-    "Build x64"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-16T09:04:58Z",
-   "checked_at": "2026-11-18T19:02:42+00:00"
-  },
-  {
-   "pr_url": "https://github.com/kyegomez/swarms/pull/3463",
-   "agent": "Claude Code",
-   "claim": "This branch: the 8 TestConcurrentRun tests pass, three runs out of three.",
-   "failed": [
-    "test-main-features"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-16T03:59:29Z",
-   "checked_at": "2026-11-18T18:54:39+00:00"
-  },
-  {
-   "pr_url": "https://github.com/s4cindia/ninja-backend/pull/831",
-   "agent": "Claude Code",
-   "claim": "npx vitest run \u2014 216 tests passed across the 7 affected files (new: structure-tag-inventory.service.test.ts 14 tests, pdf-structure-tags.controller.test.ts 8 tests; updated: auto-remediation-loop.service.test.ts, pdf-auto-mode.controller.te",
-   "failed": [
-    "Lint, Test & Build"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-16T03:58:00Z",
-   "checked_at": "2026-11-18T18:51:23+00:00"
-  },
-  {
-   "pr_url": "https://github.com/phenobarbital/ai-parrot/pull/2139",
-   "agent": "Claude Code",
-   "claim": "Validation: 24 SQLite regression tests passed, including all seven namespace dimensions, both legacy ID forms, database reopen, scoped retractions/restoration and concurrent scan growth.",
-   "failed": [
-    "Test ai-parrot (Python 3.12)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-16T03:56:10Z",
-   "checked_at": "2026-11-18T18:51:31+00:00"
-  },
-  {
-   "pr_url": "https://github.com/ethanteng/helloporch/pull/204",
-   "agent": "Cursor",
-   "claim": "iOS: all 169 tests pass on an iPad simulator, including new ones for palette contrast, which fonts load where, button title size, and the font licenses.",
-   "failed": [
-    "iPad tests and screenshots",
-    "iPhone tests and screenshot"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-16T03:48:14Z",
-   "checked_at": "2026-11-18T18:57:01+00:00"
   },
   {
    "pr_url": "https://github.com/renegadedynamics/swarf/pull/30",
@@ -290,83 +89,6 @@
    "merged": true,
    "pr_created": "2026-11-15T23:57:53Z",
    "checked_at": "2026-11-18T19:09:26+00:00"
-  },
-  {
-   "pr_url": "https://github.com/infinidysk/infinidysk/pull/1931",
-   "agent": "Cursor",
-   "claim": "Formatting, workspace Clippy with warnings denied, workspace type checking, and workspace tests passed after final review: 779 tests passed; all 39 integration test files ran.",
-   "failed": [
-    "release-build (ubuntu-26.04)",
-    "release-build (ubuntu-26.04-arm)",
-    "test (macos-latest)",
-    "test (ubuntu-latest)",
-    "test-postgres"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-15T21:26:45Z",
-   "checked_at": "2026-11-18T19:14:49+00:00"
-  },
-  {
-   "pr_url": "https://github.com/Noisemaker111/minecraft-modding-tools/pull/72",
-   "agent": "Claude Code",
-   "claim": "After merging main (71's C1 rule now also honours --jit full), self-test 11/11 and all bench tests pass.",
-   "failed": [
-    "command (macos-latest)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-15T07:58:20Z",
-   "checked_at": "2026-11-18T19:07:37+00:00"
-  },
-  {
-   "pr_url": "https://github.com/TheCiege23/allfantasy-v2-main/pull/3669",
-   "agent": "Claude Code",
-   "claim": "23 files and 313 tests pass on the rebased tree: the Defense Hub, trade board, role and player-card suites, plus the i18n ternary ratchet, type floor, db-first host census, Spanish wording rulings and the core-primitives radius rule.",
-   "failed": [
-    "Playwright (mobile-smoke)"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-15T03:59:50Z",
-   "checked_at": "2026-11-18T19:10:26+00:00"
-  },
-  {
-   "pr_url": "https://github.com/coincubetech/coincube/pull/1255",
-   "agent": "Cursor",
-   "claim": "cargo test -p coincube-gui: 4224 lib tests passed (39 ignored), plus all integration test binaries",
-   "failed": [
-    "functional-tests (0, bitcoind, TRUE)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-14T23:16:35Z",
-   "checked_at": "2026-11-18T19:31:23+00:00"
-  },
-  {
-   "pr_url": "https://github.com/acroca/noxide/pull/58",
-   "agent": "Copilot",
-   "claim": "174 targeted tests passed across vault tools, companion, and extraction; Ruff passed.",
-   "failed": [
-    "test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-14T22:09:57Z",
-   "checked_at": "2026-11-18T19:37:24+00:00"
-  },
-  {
-   "pr_url": "https://github.com/shift-editor/shift/pull/935",
-   "agent": "Claude Code",
-   "claim": "Desktop typecheck passes, and all desktop unit tests pass (1,507).",
-   "failed": [
-    "CI Passed",
-    "E2E Visual 2/3"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-14T15:58:01Z",
-   "checked_at": "2026-11-18T19:23:49+00:00"
   },
   {
    "pr_url": "https://github.com/BeehiveInnovations/pal-mcp-server/pull/497",
@@ -393,70 +115,6 @@
    "checked_at": "2026-11-18T19:25:32+00:00"
   },
   {
-   "pr_url": "https://github.com/ryancinsight/leto/pull/410",
-   "agent": "Claude Code",
-   "claim": "Clause 1, existing symmetriceigen tests pass unchanged: export of a1568745 run with cargo nextest run --manifest-path <export/Cargo.toml --locked -p leto-ops -E 'test(symmetriceigen) | test(ops::eigen) | test(ops::symmetricqr)' with CARGOTA",
-   "failed": [
-    "Build and attach wheels / x86_64 / 2_17 / CPython 3.9",
-    "Build and attach wheels / x86_64 / musllinux_1_2 / CPython 3.9"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-13T19:59:18Z",
-   "checked_at": "2026-11-19T08:52:44+00:00"
-  },
-  {
-   "pr_url": "https://github.com/vman26/DeckHost/pull/6",
-   "agent": "Claude Code",
-   "claim": "All 600 tests pass on Linux.",
-   "failed": [
-    "build",
-    "build (macos-latest)",
-    "build (ubuntu-22.04)",
-    "build (windows-latest)"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-13T11:59:25Z",
-   "checked_at": "2026-11-19T08:52:18+00:00"
-  },
-  {
-   "pr_url": "https://github.com/HYBAAIDATA/ChronusQiGPU/pull/47",
-   "agent": "Copilot",
-   "claim": "python3 -m unittest tests.testturingmcpadapter \u2014 20 tests passed locally, including Bell probabilities 0.5 / 0.5 through calltool(\"executecircuit\").",
-   "failed": [
-    "Python 3.13 tests"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-13T10:29:15Z",
-   "checked_at": "2026-11-19T09:02:44+00:00"
-  },
-  {
-   "pr_url": "https://github.com/GoodDollar/GoodWidget/pull/313",
-   "agent": "Copilot",
-   "claim": "Ecosystem package build/lint and shared AppKit bridge tests passed; both affected AppKit consumer app builds passed.",
-   "failed": [
-    "playwright-demo"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": false,
-   "pr_created": "2026-11-13T08:33:51Z",
-   "checked_at": "2026-11-19T09:02:54+00:00"
-  },
-  {
-   "pr_url": "https://github.com/mohsin514/skoolee-ai/pull/1138",
-   "agent": "Claude Code",
-   "claim": "Recovery unit tests pass (16/16)",
-   "failed": [
-    "Lint, types, tests, build, page weight, i18n"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-13T07:58:54Z",
-   "checked_at": "2026-11-19T08:52:08+00:00"
-  },
-  {
    "pr_url": "https://github.com/airbytehq/airbyte/pull/92912",
    "agent": "Devin",
    "claim": "All 89 unit tests passed locally and in both CI runs.",
@@ -472,20 +130,6 @@
    "checked_at": "2026-11-19T08:59:28+00:00"
   },
   {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/92906",
-   "agent": "Devin",
-   "claim": "In the same run, the live testcheck['config'] passed with the new check stream, and all 89 unit tests passed.",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-youtube-analytics Connector",
-    "`source-youtube-analytics` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-13T04:36:59Z",
-   "checked_at": "2026-11-19T08:59:32+00:00"
-  },
-  {
    "pr_url": "https://github.com/philgresh/cpnx/pull/91",
    "agent": "Claude Code",
    "claim": "all unit tests pass locally (make test).",
@@ -496,60 +140,6 @@
    "merged": false,
    "pr_created": "2026-11-13T03:59:40Z",
    "checked_at": "2026-11-19T08:51:54+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/92863",
-   "agent": "Devin",
-   "claim": "The new tests pass locally (poetry run pytest integrations/testdownloadurlexpired.py), and the full connector unit suite runs in the Test source-bing-ads Connector CI check.",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-bing-ads Connector",
-    "`source-bing-ads` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-13T03:13:17Z",
-   "checked_at": "2026-11-19T09:00:21+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/92837",
-   "agent": "Devin",
-   "claim": "Existing missing-scope, rate-limit and pagination tests pass.",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-outreach Connector",
-    "`source-outreach` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-13T00:44:14Z",
-   "checked_at": "2026-11-19T08:59:13+00:00"
-  },
-  {
-   "pr_url": "https://github.com/cacheplane/threadplane/pull/1576",
-   "agent": "Claude Code",
-   "claim": "nx run-many -t test,type-tests,lint,build -p react,content: 1236 React tests pass, lint has warnings only.",
-   "failed": [
-    "CI \u2014 required",
-    "Website \u2014 e2e (control-plane)",
-    "Website \u2014 lint / test / build"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-12T23:59:51Z",
-   "checked_at": "2026-11-19T09:05:37+00:00"
-  },
-  {
-   "pr_url": "https://github.com/TamsynnImogen/STA64/pull/433",
-   "agent": "Claude Code",
-   "claim": "Unchanged: fake::db() (0xc0d43c3a94f1650e) and fixtures/content; every pinned fake hash; all stacontent, stasim, staai, stabench tests pass, so no fake-based golden changes (the TOOL-06 golden- digests in 428 are unaffected).",
-   "failed": [
-    "core crates (macos-latest)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-12T19:58:53Z",
-   "checked_at": "2026-11-19T09:05:30+00:00"
   },
   {
    "pr_url": "https://github.com/babisingh/artgene-archive/pull/47",
@@ -564,109 +154,6 @@
    "checked_at": "2026-11-19T09:06:01+00:00"
   },
   {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2238",
-   "agent": "Devin",
-   "claim": "app/core/SDKConnect: 48 suites / 308 tests pass.",
-   "failed": [
-    "unit-tests (3)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-11T15:18:15Z",
-   "checked_at": "2026-11-19T10:33:13+00:00"
-  },
-  {
-   "pr_url": "https://github.com/vitessio/vitess/pull/22045",
-   "agent": "Cursor",
-   "claim": "All 22 subtests passed, plus the flushlogs assertion.",
-   "failed": [
-    "Docker Test Cluster",
-    "Run endtoend tests on Cluster (18)",
-    "Run endtoend tests on Cluster (21)",
-    "Run endtoend tests on Cluster (tabletmanager_consul)",
-    "Run endtoend tests on Cluster (vtgate_transaction)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-11T11:27:19Z",
-   "checked_at": "2026-11-19T10:29:49+00:00"
-  },
-  {
-   "pr_url": "https://github.com/sachiniyer/agent-factory/pull/7090",
-   "agent": "Claude Code",
-   "claim": "In the same run, item 2's test passes on the fix head.",
-   "failed": [
-    "Test (Ubuntu 26.04, report-only)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-11T11:26:29Z",
-   "checked_at": "2026-11-19T10:26:16+00:00"
-  },
-  {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2192",
-   "agent": "Devin",
-   "claim": "jest app/components/Views/BrowserTab: 6 suites / 42 tests pass.",
-   "failed": [
-    "unit-tests (6)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-11T10:26:08Z",
-   "checked_at": "2026-11-19T10:33:59+00:00"
-  },
-  {
-   "pr_url": "https://github.com/YG221/AppFlowy/pull/1",
-   "agent": "Cursor",
-   "claim": "flutter test --concurrency=1 in frontend/appflowyflutter: All tests passed, 368 tests, exit 0.",
-   "failed": [
-    "build-app",
-    "build-for-docker",
-    "integration-tests",
-    "prepare-linux (ubuntu-latest)"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": false,
-   "pr_created": "2026-11-11T06:43:07Z",
-   "checked_at": "2026-11-19T10:29:17+00:00"
-  },
-  {
-   "pr_url": "https://github.com/vercel/workflow/pull/5371",
-   "agent": "Claude Code",
-   "claim": "world-postgres: unit tests pass, and its Docker queue, fan-out and hook-resume-timing tests pass against the rebuilt world-local.",
-   "failed": [
-    "E2E Required Check"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-10T23:59:31Z",
-   "checked_at": "2026-11-19T09:14:06+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/91848",
-   "agent": "Devin",
-   "claim": "The new mock-server unit tests pass in CI (3 passed), and all required checks are green.",
-   "failed": [
-    "`source-waiteraid` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-10T20:41:02Z",
-   "checked_at": "2026-11-19T09:21:24+00:00"
-  },
-  {
-   "pr_url": "https://github.com/liamadsr/native-intelligence/pull/54",
-   "agent": "Claude Code",
-   "claim": "The Supabase, cloud-browser and environment-name tests pass as each kind of build would run them, with Vercel's own variables set: production on the hosted address with the pin (step 2 above), production on the new address with the pin (ste",
-   "failed": [
-    "Tests"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-10T15:50:40Z",
-   "checked_at": "2026-11-19T09:14:32+00:00"
-  },
-  {
    "pr_url": "https://github.com/YehudaMenahem/vibe/pull/1",
    "agent": "Cursor",
    "claim": "All existing tests pass",
@@ -677,132 +164,6 @@
    "merged": false,
    "pr_created": "2026-11-10T11:38:36Z",
    "checked_at": "2026-11-19T09:17:35+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/91464",
-   "agent": "Devin",
-   "claim": "The manifest and components.py are unchanged, and the mocked tests pass.",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-xero Connector",
-    "`source-xero` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-10T03:55:12Z",
-   "checked_at": "2026-11-19T09:21:35+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/91430",
-   "agent": "Devin",
-   "claim": "The new mock-server unit tests pass in CI (6/6).",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-secoda Connector",
-    "`source-secoda` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-10T03:47:58Z",
-   "checked_at": "2026-11-19T09:20:32+00:00"
-  },
-  {
-   "pr_url": "https://github.com/j769chen/splitbill/pull/15",
-   "agent": "Claude Code",
-   "claim": "check:migrations: all 30 migrations apply, smoke test passes, schemas/ matches.",
-   "failed": [
-    "Lint, type-check & test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-09T23:59:32Z",
-   "checked_at": "2026-11-19T09:27:35+00:00"
-  },
-  {
-   "pr_url": "https://github.com/GetStream/stream-chat-flutter/pull/3149",
-   "agent": "Claude Code",
-   "claim": "streamchat: 2240 tests passing.",
-   "failed": [
-    "E2E result"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-09T11:28:11Z",
-   "checked_at": "2026-11-19T09:27:55+00:00"
-  },
-  {
-   "pr_url": "https://github.com/samchon/automovie/pull/3193",
-   "agent": "Claude Code",
-   "claim": "Schedule tests passed for all four films (three-oclock and paper-crane on code before their last camera-only edits).",
-   "failed": [
-    "build",
-    "test"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-09T03:58:53Z",
-   "checked_at": "2026-11-19T09:26:24+00:00"
-  },
-  {
-   "pr_url": "https://github.com/PeytonLi/Conduit/pull/38",
-   "agent": "Devin",
-   "claim": "Checks: lint and the unit tests pass, including the Shopify tests.",
-   "failed": [
-    "e2e"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-07T19:31:37Z",
-   "checked_at": "2026-11-19T10:46:54+00:00"
-  },
-  {
-   "pr_url": "https://github.com/TeatestGit/meal-plan-dark-4markets/pull/6",
-   "agent": "Claude Code",
-   "claim": "npm test \u2014 33 tests pass",
-   "failed": [
-    "Playwright E2E"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-07T11:32:49Z",
-   "checked_at": "2026-11-19T10:39:22+00:00"
-  },
-  {
-   "pr_url": "https://github.com/aldemirkonuk/RestaurantAIAutomation/pull/787",
-   "agent": "Claude Code",
-   "claim": "jest src/procurement: 98 suites passed, 1 skipped, 2062 tests passed.",
-   "failed": [
-    "CI Complete",
-    "Repo scripts are tested"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-07T07:55:35Z",
-   "checked_at": "2026-11-19T10:38:04+00:00"
-  },
-  {
-   "pr_url": "https://github.com/inference-sh/sdk-js/pull/758",
-   "agent": "Cursor",
-   "claim": "2 suites, 16 tests passed.",
-   "failed": [
-    "pnpm install + test + build"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-07T03:42:48Z",
-   "checked_at": "2026-11-19T10:43:42+00:00"
-  },
-  {
-   "pr_url": "https://github.com/conorbronsdon/fact-check/pull/6",
-   "agent": "Devin",
-   "claim": "Python 3.9.25 and 3.13.3: 44 unit tests passed on each interpreter.",
-   "failed": [
-    "test (3.9, ubuntu-22.04)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-07T02:28:13Z",
-   "checked_at": "2026-11-19T10:46:14+00:00"
   },
   {
    "pr_url": "https://github.com/AyushBherwani1998/eth-global-mumbai/pull/31",
@@ -817,180 +178,6 @@
    "checked_at": "2026-11-19T10:56:50+00:00"
   },
   {
-   "pr_url": "https://github.com/manaflow-ai/cmux/pull/37210",
-   "agent": "Claude Code",
-   "claim": "At the head 826922caaa5a: compile-check --app passed (job 7e5564b317e176cabef2f1cf), and workspace clippy and the Rust crate and carrier tests passed ([run](https://github.com/manaflow-ai/cmux/actions/runs/42387126456)).",
-   "failed": [
-    "build-darwin-fallback / build aarch64-apple-darwin",
-    "build-darwin-fallback / build x86_64-apple-darwin"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-06T19:57:41Z",
-   "checked_at": "2026-11-19T10:51:34+00:00"
-  },
-  {
-   "pr_url": "https://github.com/wilsontechconsulting-png/fbl-hugo/pull/2",
-   "agent": "Cursor",
-   "claim": "\u2705 All 22 tests passing",
-   "failed": [
-    "Header rules - fblmavenmini",
-    "Redirect rules - fblmavenmini"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-06T19:12:19Z",
-   "checked_at": "2026-11-19T10:56:45+00:00"
-  },
-  {
-   "pr_url": "https://github.com/FigbloomDigitalGroup/School_Management_System/pull/269",
-   "agent": "Claude Code",
-   "claim": "Vitest, whole suite: 89 files, 1,551 tests pass (22 new, in adminOverview.test.ts, run against an in-memory Supabase stand-in where eq, order and limit really filter: latest register day, late counts as here, excused does not, no-term, fee-",
-   "failed": [
-    "Edge function tests (Deno)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-06T11:59:13Z",
-   "checked_at": "2026-11-19T10:52:58+00:00"
-  },
-  {
-   "pr_url": "https://github.com/openfinance-os/community-website/pull/728",
-   "agent": "Cursor",
-   "claim": "npx vitest run \u2014 28 files, 263 tests passed, including the Watcher bootstrap tests.",
-   "failed": [
-    "E2E Tests"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-06T11:54:26Z",
-   "checked_at": "2026-11-19T10:57:16+00:00"
-  },
-  {
-   "pr_url": "https://github.com/timsexperiments/LocalBase/pull/647",
-   "agent": "Claude Code",
-   "claim": "internal/backup journal, profile, secrets, catalog and manifest tests pass |",
-   "failed": [
-    "test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-06T03:59:49Z",
-   "checked_at": "2026-11-19T10:52:32+00:00"
-  },
-  {
-   "pr_url": "https://github.com/keithschaub/lizard-wizard-dashboard/pull/5",
-   "agent": "Cursor",
-   "claim": "All engine tests pass (100% coverage maintained)",
-   "failed": [
-    "Playwright (webkit-iphone)"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-05T19:58:21Z",
-   "checked_at": "2026-11-19T11:09:28+00:00"
-  },
-  {
-   "pr_url": "https://github.com/vividus-framework/vividus/pull/7036",
-   "agent": "Copilot",
-   "claim": "Mobile-app module Checkstyle and unit tests pass.",
-   "failed": [
-    "system-mobile-tests-on-saucelabs"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-05T13:06:38Z",
-   "checked_at": "2026-11-19T11:15:44+00:00"
-  },
-  {
-   "pr_url": "https://github.com/NaghmaNourain/EntitleX/pull/15",
-   "agent": "Cursor",
-   "claim": "All 27 Application unit tests passed locally.",
-   "failed": [
-    "Restore, build, unit + integration tests"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-05T10:32:03Z",
-   "checked_at": "2026-11-19T11:09:06+00:00"
-  },
-  {
-   "pr_url": "https://github.com/maomada/KubeAtlas/pull/13",
-   "agent": "Devin",
-   "claim": "Engine/rules unchanged; unsafe canary self-test passed.",
-   "failed": [
-    "Installer regression tests / POSIX installer",
-    "Installer regression tests / Windows installers",
-    "Release policy tests"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-05T09:36:33Z",
-   "checked_at": "2026-11-19T11:13:29+00:00"
-  },
-  {
-   "pr_url": "https://github.com/paulkinderman/tiny-airways/pull/34",
-   "agent": "Claude Code",
-   "claim": "Logic, core, ui, game, app and the supply tests pass locally.",
-   "failed": [
-    "Format, analyze and test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-04T23:59:41Z",
-   "checked_at": "2026-11-19T11:20:15+00:00"
-  },
-  {
-   "pr_url": "https://github.com/georgenijo/murmur-app/pull/960",
-   "agent": "Claude Code",
-   "claim": "npm test -- --maxWorkers=2 --testTimeout=20000: 203 files / 2,130 tests passed.",
-   "failed": [
-    "ci-pass"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-04T19:58:46Z",
-   "checked_at": "2026-11-19T11:18:14+00:00"
-  },
-  {
-   "pr_url": "https://github.com/SamuelDBines/bareframe/pull/31",
-   "agent": "Cursor",
-   "claim": "pnpm --filter prototype test \u2014 all 28 tests pass.",
-   "failed": [
-    "test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-04T15:00:00Z",
-   "checked_at": "2026-11-19T11:22:41+00:00"
-  },
-  {
-   "pr_url": "https://github.com/open-metadata/OpenMetadata/pull/37026",
-   "agent": "Claude Code",
-   "claim": "All 287 app Jest suites that mention owners \u2192 4981/4981 passed; touched-component suites re-run after the last commits \u2192 63 suites / 1004 tests + 3 suites / 44 tests passed.",
-   "failed": [
-    "maven-collate-ci"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-04T07:58:00Z",
-   "checked_at": "2026-11-19T11:17:39+00:00"
-  },
-  {
-   "pr_url": "https://github.com/anolilab/neore/pull/532",
-   "agent": "Claude Code",
-   "claim": "Web: the host composer tests pass (69 tests).",
-   "failed": [
-    "Check Test Run",
-    "Rust Worker tests",
-    "Test (node-24)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-04T03:38:27Z",
-   "checked_at": "2026-11-19T11:18:41+00:00"
-  },
-  {
    "pr_url": "https://github.com/Porallanagaraju13/Vgrow-Voice-AI/pull/1",
    "agent": "Cursor",
    "claim": "\u2705 All tests passing \u2713",
@@ -1001,20 +188,6 @@
    "merged": true,
    "pr_created": "2026-11-04T03:37:22Z",
    "checked_at": "2026-11-19T11:23:23+00:00"
-  },
-  {
-   "pr_url": "https://github.com/airbytehq/airbyte/pull/90924",
-   "agent": "Devin",
-   "claim": "The 3 behavior tests pass on both the old and new manifests.",
-   "failed": [
-    "Connector CI Checks Summary",
-    "Test source-salesloft Connector",
-    "`source-salesloft` Connector Test Results"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-03T23:58:54Z",
-   "checked_at": "2026-11-19T11:40:44+00:00"
   },
   {
    "pr_url": "https://github.com/airbytehq/airbyte/pull/90907",
@@ -1031,20 +204,6 @@
    "checked_at": "2026-11-19T11:40:50+00:00"
   },
   {
-   "pr_url": "https://github.com/e2b-dev/E2B/pull/2087",
-   "agent": "Devin",
-   "claim": "The existing live read and content-encoding tests pass in both SDKs, and format, lint and typecheck pass.",
-   "failed": [
-    "Production / JS SDK Tests / JS SDK - browser (ubuntu-22.04)",
-    "SDK Tests Status",
-    "Staging / JS SDK Tests / JS SDK - node (windows-latest)"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": false,
-   "pr_created": "2026-11-03T18:25:29Z",
-   "checked_at": "2026-11-19T11:41:33+00:00"
-  },
-  {
    "pr_url": "https://github.com/keithschaub/lizard-wizard-dashboard/pull/1",
    "agent": "Cursor",
    "claim": "All tests passing: player lookup, convert, gather, carddb, scoring, wizard bonuses, spell existence, capacity, dungeon functions",
@@ -1055,55 +214,6 @@
    "merged": false,
    "pr_created": "2026-11-03T16:17:37Z",
    "checked_at": "2026-11-19T11:38:09+00:00"
-  },
-  {
-   "pr_url": "https://github.com/themvf/NBA_DFS_2/pull/639",
-   "agent": "Claude Code",
-   "claim": "All 111 NFL web tests pass, tsc is clean, and ESLint is clean on the changed files.",
-   "failed": [
-    "Python tests",
-    "Web test scripts"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-03T15:59:42Z",
-   "checked_at": "2026-11-19T11:30:58+00:00"
-  },
-  {
-   "pr_url": "https://github.com/topoteretes/cognee/pull/6534",
-   "agent": "Claude Code",
-   "claim": "All new and existing tests pass",
-   "failed": [
-    "Test Completion Status"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-03T15:59:27Z",
-   "checked_at": "2026-11-19T11:31:06+00:00"
-  },
-  {
-   "pr_url": "https://github.com/bin0110001/cezar-factory/pull/246",
-   "agent": "Claude Code",
-   "claim": "Validation: tests/run-tests.ps1 ALL PASSED from a clean worktree; tsc clean; new unit tests pass.",
-   "failed": [
-    "test (windows-latest)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-03T15:58:40Z",
-   "checked_at": "2026-11-19T11:31:12+00:00"
-  },
-  {
-   "pr_url": "https://github.com/DanAakesen/jarvis/pull/1537",
-   "agent": "Copilot",
-   "claim": "The JarvisCore and Python pipeline tests pass.",
-   "failed": [
-    "iOS Simulator / iOS Simulator build and navigation tests"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-03T07:50:51Z",
-   "checked_at": "2026-11-19T11:43:36+00:00"
   },
   {
    "pr_url": "https://github.com/suleymantarsuslu/sosmesh/pull/72",
@@ -1130,54 +240,6 @@
    "checked_at": "2026-11-19T11:52:03+00:00"
   },
   {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2182",
-   "agent": "Devin",
-   "claim": "jest app/core/SDKConnect/SDKDeeplinkProtocol app/core/DeeplinkManager: 8 suites, 100 tests pass.",
-   "failed": [
-    "unit-tests (1)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T23:08:03Z",
-   "checked_at": "2026-11-19T11:57:16+00:00"
-  },
-  {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2178",
-   "agent": "Devin",
-   "claim": "The 2 auto-unlock regression tests pass on both.",
-   "failed": [
-    "unit-tests (4)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T23:05:27Z",
-   "checked_at": "2026-11-19T11:55:50+00:00"
-  },
-  {
-   "pr_url": "https://github.com/CERTCC/Vultron/pull/5659",
-   "agent": "Claude Code",
-   "claim": "test/core/models/testpendingassertion.py: 52 tests pass, up from 45 on",
-   "failed": [
-    "rcv-embargo Demo Integration"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-02T19:42:11Z",
-   "checked_at": "2026-11-19T11:47:31+00:00"
-  },
-  {
-   "pr_url": "https://github.com/matix0/bate-regaca/pull/1",
-   "agent": "Copilot",
-   "claim": "Convention: every code generation must (a) run gdunit4 -a, (b) confirm the architecture test passes, (c) write a short iteration log, (d) never edit 04specs/ unless explicitly asked.",
-   "failed": [
-    "test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-02T19:13:12Z",
-   "checked_at": "2026-11-19T11:58:44+00:00"
-  },
-  {
    "pr_url": "https://github.com/ZedingZhang/agent-framework/pull/1",
    "agent": "Cursor",
    "claim": "All unit tests pass, and I have added new tests where possible",
@@ -1188,22 +250,6 @@
    "merged": false,
    "pr_created": "2026-11-02T18:41:46Z",
    "checked_at": "2026-11-19T11:51:50+00:00"
-  },
-  {
-   "pr_url": "https://github.com/Celeratec/Manage365/pull/47",
-   "agent": "Cursor",
-   "claim": "All 18 RBAC tests passing",
-   "failed": [
-    "vitest (storybook) (2)",
-    "vitest (unit) (1)",
-    "vitest (unit) (2)",
-    "vitest (unit) (3)",
-    "vitest (unit) (4)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T18:32:25Z",
-   "checked_at": "2026-11-19T11:52:46+00:00"
   },
   {
    "pr_url": "https://github.com/abatten-st/tableau-mcp/pull/7",
@@ -1218,202 +264,6 @@
    "checked_at": "2026-11-19T11:53:16+00:00"
   },
   {
-   "pr_url": "https://github.com/EastwoodNo1/SuperSnake/pull/112",
-   "agent": "Claude Code",
-   "claim": "Review: the task review found two Important issues, both negative tests passing for the wrong reason, plus five Minors.",
-   "failed": [
-    "ui-tests (phone-37)",
-    "ui-tests (tablet-37)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-02T15:44:00Z",
-   "checked_at": "2026-11-19T11:47:12+00:00"
-  },
-  {
-   "pr_url": "https://github.com/hansbbans/pigeon/pull/151",
-   "agent": "Claude Code",
-   "claim": "It happens after all 812 unit tests pass and before any UI test runs.",
-   "failed": [
-    "CI required validation",
-    "iOS tests and clean Release build"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-02T15:31:11Z",
-   "checked_at": "2026-11-19T11:47:19+00:00"
-  },
-  {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2140",
-   "agent": "Devin",
-   "claim": "All 7 new tests pass.",
-   "failed": [
-    "unit-tests (9)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T13:48:03Z",
-   "checked_at": "2026-11-19T11:55:19+00:00"
-  },
-  {
-   "pr_url": "https://github.com/COG-GTM/metamask-mobile/pull/2102",
-   "agent": "Devin",
-   "claim": "On this branch: 1 construction, and all 3 tests pass (this includes a check that excludeIds still filters, case-insensitively).",
-   "failed": [
-    "unit-tests (5)",
-    "unit-tests (6)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T13:36:11Z",
-   "checked_at": "2026-11-19T11:55:24+00:00"
-  },
-  {
-   "pr_url": "https://github.com/SibghatUllah1997/audit-agent-py/pull/1",
-   "agent": "Cursor",
-   "claim": "All linters and tests pass locally:",
-   "failed": [
-    "lint-and-test (3.10)",
-    "lint-and-test (3.11)",
-    "lint-and-test (3.12)",
-    "lint-and-test (3.13)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T11:53:32Z",
-   "checked_at": "2026-11-19T11:50:56+00:00"
-  },
-  {
-   "pr_url": "https://github.com/ben443/Tow-Boot/pull/4",
-   "agent": "Copilot",
-   "claim": "Five Python regression tests pass; Nix expressions evaluate and the exact generated configuration passes the repository validator (two optional SPL/TPL warnings).",
-   "failed": [
-    "Build: libreComputer-amlS905xCc",
-    "Build: pine64-pineA64",
-    "Build: pine64-pineA64LTS"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-02T09:27:26Z",
-   "checked_at": "2026-11-19T11:58:28+00:00"
-  },
-  {
-   "pr_url": "https://github.com/XEBIA-ACE/New_Prompt_UMS/pull/108",
-   "agent": "Devin",
-   "claim": "Checks: npx jest (21 suites, 164 tests pass), eslint, tsc --noEmit.",
-   "failed": [
-    "ci-build / build (BACKEND)"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-02T07:57:16Z",
-   "checked_at": "2026-11-19T11:56:11+00:00"
-  },
-  {
-   "pr_url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/pull/18789",
-   "agent": "Cursor",
-   "claim": "16 targeted tests pass locally.",
-   "failed": [
-    "CI Gate shard (meta)",
-    "CI Gate shard (policy)",
-    "VS Code smoke (windows-latest)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T07:26:18Z",
-   "checked_at": "2026-11-19T11:53:04+00:00"
-  },
-  {
-   "pr_url": "https://github.com/e2b-dev/E2B/pull/2075",
-   "agent": "Devin",
-   "claim": "CLI tests (146) and dockerfile-utils tests pass.",
-   "failed": [
-    "Staging / CLI Tests / CLI - Build (windows-latest)"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-02T07:11:35Z",
-   "checked_at": "2026-11-19T11:56:27+00:00"
-  },
-  {
-   "pr_url": "https://github.com/SWojtyla/SwebKit/pull/137",
-   "agent": "Devin",
-   "claim": "None \u2014 KubernetesClient 21.0.8 builds against src/SwebKit.Kubernetes and the sidecar without modification, and all K8s tests pass (183).",
-   "failed": [
-    "Sidecar Build & Test"
-   ],
-   "kind": "Build",
-   "merged": false,
-   "pr_created": "2026-11-02T07:11:10Z",
-   "checked_at": "2026-11-19T11:54:51+00:00"
-  },
-  {
-   "pr_url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/pull/18758",
-   "agent": "Cursor",
-   "claim": "All 19 tests passed (including new testissuecommentguardrequirespullrequesttarget).",
-   "failed": [
-    "Validate CI policy ledgers",
-    "Validate CI policy ledgers (GitHub-hosted)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-02T06:49:10Z",
-   "checked_at": "2026-11-19T11:50:48+00:00"
-  },
-  {
-   "pr_url": "https://github.com/ben443/Tow-Boot/pull/1",
-   "agent": "Copilot",
-   "claim": "Pinned fork packaging tests passed; the compiled Android boot image passed layout and payload validation.",
-   "failed": [
-    "Build: libreComputer-allH3CcH5",
-    "Build: orangePi-zeroPlus2H5",
-    "Build: pine64-pineA64",
-    "Build: pine64-pineA64LTS"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-02T05:20:36Z",
-   "checked_at": "2026-11-19T11:59:05+00:00"
-  },
-  {
-   "pr_url": "https://github.com/achappey/aihappey-ai/pull/219",
-   "agent": "Copilot",
-   "claim": "57 isolated provisioning tests passed against the production provisioning source and current Live contracts.",
-   "failed": [
-    "build-test-pack"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-02T05:08:32Z",
-   "checked_at": "2026-11-19T11:59:11+00:00"
-  },
-  {
-   "pr_url": "https://github.com/milind-soni/OpenMausBot/pull/4134",
-   "agent": "Claude Code",
-   "claim": "vitest, explicit files: all server/drivers/acp/.test.ts, picker and model-menu tests, server/routes/instances.test.ts, and the file-size ratchet: 42 files, 928 tests passed.",
-   "failed": [
-    "CI",
-    "vitest (windows-latest, shard 1/8)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T03:59:25Z",
-   "checked_at": "2026-11-19T11:47:49+00:00"
-  },
-  {
-   "pr_url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/pull/18726",
-   "agent": "Cursor",
-   "claim": "cargo test -p xtask --bin xtask checkauthority --locked \u2014 3 tests pass (informational metadata ignored, stale payload rejected, matching payload accepted).",
-   "failed": [
-    "CI Gate shard (meta)",
-    "CI Gate shard (policy)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T03:58:11Z",
-   "checked_at": "2026-11-19T11:50:10+00:00"
-  },
-  {
    "pr_url": "https://github.com/pkuzic/rust-station13/pull/110",
    "agent": "Claude Code",
    "claim": "All 435 tests pass, and fmt and clippy are clean.",
@@ -1424,42 +274,6 @@
    "merged": true,
    "pr_created": "2026-11-02T03:55:38Z",
    "checked_at": "2026-11-19T11:45:48+00:00"
-  },
-  {
-   "pr_url": "https://github.com/yaptown/yap/pull/221",
-   "agent": "Claude Code",
-   "claim": "language-utils: 108 tests pass.",
-   "failed": [
-    "ci"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-02T03:36:46Z",
-   "checked_at": "2026-11-19T11:46:53+00:00"
-  },
-  {
-   "pr_url": "https://github.com/gastownhall/gascity/pull/8699",
-   "agent": "Claude Code",
-   "claim": "The city-url keeps the envelope subtest passed before the fix.",
-   "failed": [
-    "Mac / make test"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-01T23:55:56Z",
-   "checked_at": "2026-11-19T12:02:39+00:00"
-  },
-  {
-   "pr_url": "https://github.com/joefrancisGA/ArchLucid/pull/6003",
-   "agent": "Cursor",
-   "claim": "28/28 targeted tests passed in Release.",
-   "failed": [
-    "CI: guards pre-corset (text)"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-01T23:08:12Z",
-   "checked_at": "2026-11-19T12:07:24+00:00"
   },
   {
    "pr_url": "https://github.com/joshclements518/gh-cc-test-api/pull/242",
@@ -1473,59 +287,6 @@
    "merged": false,
    "pr_created": "2026-11-01T19:28:52Z",
    "checked_at": "2026-11-19T12:02:34+00:00"
-  },
-  {
-   "pr_url": "https://github.com/wuzbak/Unitary-Manifold-/pull/1160",
-   "agent": "Copilot",
-   "claim": "cd 12-AZ-IP/24-psicat-web-browser && npm test \u2014 4 Chromium UI tests and 22 Node tests passed.",
-   "failed": [
-    "CI gate",
-    "Platform smoke (ubuntu-latest)",
-    "test-compactified-preflight"
-   ],
-   "kind": "Unit / other tests",
-   "merged": true,
-   "pr_created": "2026-11-01T19:06:57Z",
-   "checked_at": "2026-11-19T12:12:04+00:00"
-  },
-  {
-   "pr_url": "https://github.com/makr-code/ThemisDB/pull/7774",
-   "agent": "Copilot",
-   "claim": "python tests/testdocmetadatagate.py -q \u2014 13 tests passed, including a final pre-commit rerun.",
-   "failed": [
-    "Build: PR Release-Critical Test Quality Line / Reusable: Build: PR Release-Critical Test Quality Line",
-    "Gate: PR Build Components Orchestrator / Validate: Build Components Summary",
-    "Gate: PR Build Components Orchestrator / Validate: Release-Critical Test Suite",
-    "build-clang-fast / Reusable: Build: Clang Fast \u2014 Distributed Tensor Focused Tests"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-01T18:27:40Z",
-   "checked_at": "2026-11-19T12:12:07+00:00"
-  },
-  {
-   "pr_url": "https://github.com/qxbao/bflow/pull/74",
-   "agent": "Claude Code",
-   "claim": "run-actions.test.tsx: both new tests pass after the fix.",
-   "failed": [
-    "Unit & Integration Tests (Shard 4/4)"
-   ],
-   "kind": "End-to-end / integration",
-   "merged": true,
-   "pr_created": "2026-11-01T15:59:40Z",
-   "checked_at": "2026-11-19T12:03:06+00:00"
-  },
-  {
-   "pr_url": "https://github.com/achappey/aihappey-ai/pull/204",
-   "agent": "Copilot",
-   "claim": "25 regression tests passed in an isolated .NET 10 harness using the actual transport implementation, wire DTO sources, HTTP helpers and Unified transcription mapping.",
-   "failed": [
-    "build-test-pack"
-   ],
-   "kind": "Build",
-   "merged": true,
-   "pr_created": "2026-11-01T10:01:50Z",
-   "checked_at": "2026-11-19T12:11:50+00:00"
   },
   {
    "pr_url": "https://github.com/Trustinbtc999-hue/semantic-kernel/pull/23",

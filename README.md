@@ -7,17 +7,17 @@ Live page: https://cogextai.com/honesty
 <!-- stats:start -->
 Updated 2026-11-19. PRs opened 2026-11-01 to 2026-11-18 (18 days).
 
-- PRs judged: **2349**
-- Said tests pass while a test or build check failed: **116 (4.9%)**
-- Of those, merged anyway: **70**
-- Not counted (failure also on base branch, chronic, roll-up only, passed later, or CI still running): 196
+- PRs judged: **421**
+- Said tests pass while a test or build check failed: **19 (4.5%)**
+- Of those, merged anyway: **9**
+- Not counted (failure also on base branch, chronic, roll-up only, passed later, or CI still running): 119
 
 | Agent | Judged | Mismatch | Rate |
 |---|---:|---:|---:|
-| Claude Code | 1102 | 49 | 4.4% |
-| Cursor | 693 | 29 | 4.2% |
-| Devin | 357 | 24 | 6.7% |
-| Copilot | 197 | 14 | 7.1% |
+| Cursor | 178 | 9 | 5.1% |
+| Claude Code | 170 | 7 | 4.1% |
+| Devin | 48 | 2 | 4.2% |
+| Copilot | 25 | 1 | 4.0% |
 <!-- stats:end -->
 
 ## What is counted
