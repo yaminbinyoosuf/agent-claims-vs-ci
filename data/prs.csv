@@ -537,5 +537,6 @@ https://github.com/thecgaigroup/reelsmith/pull/27,Cursor,VERIFIED,All tests pass
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6025,Claude Code,UNVERIFIABLE,Unit tests pass,,1,2026-11-18T15:54:00Z,2026-11-19T09:38:23+00:00
 https://github.com/bryan-basg/samd-starter-kit/pull/97,Claude Code,VERIFIED,Tests pass with numbers reported.,,1,2026-11-18T15:59:44Z,2026-11-19T09:39:01+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6029,Claude Code,UNVERIFIABLE,Unit tests pass,,1,2026-11-18T19:36:32Z,2026-11-19T09:38:37+00:00
+https://github.com/matan2439/syllo-course-planner/pull/163,Claude Code,VERIFIED,3172 tests passing,,0,2026-11-18T19:40:36Z,2026-11-20T04:32:48+00:00
 https://github.com/ShaulLavo/bun-wasm/pull/937,Claude Code,VERIFIED,"All 59 tests pass twice, and again with the cores oversubscribed 2x.",,1,2026-11-18T19:59:50Z,2026-11-19T09:37:22+00:00
 https://github.com/TracecatHQ/tracecat/pull/4230,Devin,VERIFIED,"Tests passing (targeted, see Steps to QA)",,0,2026-11-18T23:10:54Z,2026-11-19T09:45:56+00:00

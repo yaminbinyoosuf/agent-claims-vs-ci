@@ -72,9 +72,9 @@ ROLLUP = re.compile(r"^(ci[\s_-]*(required|result|passed|status|success|complete
 LABEL = re.compile(r"^\W*(?:(?:validation|verification|checks?|tests?|testing|test plan|test results?|results?|"
                    r"status|total|summary|ci)\s*[:\-\u2014]+)?", re.I)
 GENERAL_WORDS = {"all", "and", "the", "existing", "unit", "of", "so", "now", "both"}
-SCOPED_SUFFIX = re.compile(r"^\W*(?:only\b|on\s+(?:linux|mac\w*|windows|ubuntu|ios|android|an?\s|the\s|python|node)|"
+SCOPED_SUFFIX = re.compile(r"^(?:\s+\d|\W*(?:only\b|for\s|on\s+(?:linux|mac\w*|windows|ubuntu|ios|android|an?\s|the\s|python|node)|"
                            r"in\s+(?:the\s+)?[\w./-]+\s+(?:module|package|crate|suite|file|folder|directory)|"
-                           r"for\s+(?:the\s+)?[\w./-]+\s+(?:module|package|crate))", re.I)
+                           r"for\s+(?:the\s+)?[\w./-]+\s+(?:module|package|crate)))", re.I)
 
 
 def scoped(claim: str) -> bool:
