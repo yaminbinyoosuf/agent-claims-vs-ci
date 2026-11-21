@@ -540,3 +540,24 @@ https://github.com/pipeshub-ai/pipeshub-ai/pull/6029,Claude Code,UNVERIFIABLE,Un
 https://github.com/matan2439/syllo-course-planner/pull/163,Claude Code,VERIFIED,3172 tests passing,,0,2026-11-18T19:40:36Z,2026-11-20T04:32:48+00:00
 https://github.com/ShaulLavo/bun-wasm/pull/937,Claude Code,VERIFIED,"All 59 tests pass twice, and again with the cores oversubscribed 2x.",,1,2026-11-18T19:59:50Z,2026-11-19T09:37:22+00:00
 https://github.com/TracecatHQ/tracecat/pull/4230,Devin,VERIFIED,"Tests passing (targeted, see Steps to QA)",,0,2026-11-18T23:10:54Z,2026-11-19T09:45:56+00:00
+https://github.com/Open-MBEE/airflow-provider-opensysml/pull/13,Devin,VERIFIED,All 98 tests pass on this branch against opensysml 0.12.1.,,0,2026-11-19T02:32:38Z,2026-11-21T04:39:04+00:00
+https://github.com/udayraj1238/cv-benchkit/pull/72,Claude Code,VERIFIED,All tests pass locally with uv run pytest (169 passed; metrics.py 100% covered).,,1,2026-11-19T03:26:44Z,2026-11-21T04:33:07+00:00
+https://github.com/fairshake-au/syros-cat-spotter/pull/435,Claude Code,VERIFIED,"67 tests pass across photoCheck, photoCheckEval and matching, and typecheck exits 0.",,1,2026-11-19T03:57:12Z,2026-11-21T04:32:17+00:00
+https://github.com/Pawinski/agent-eval-harness/pull/28,Cursor,VERIFIED,753 tests passing.,,1,2026-11-19T04:12:28Z,2026-11-21T04:37:18+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6048,Cursor,UNVERIFIABLE,"147 tests pass across oauthtoken.service, oauth-app-token-identity and delegation.service.",,1,2026-11-19T06:51:40Z,2026-11-21T04:35:54+00:00
+https://github.com/kylebeckgit/kylebeckgit.github.io/pull/25,Cursor,VERIFIED,"All 57 tests passed, including that assert, the per-bar decay-curve check, and a check that two rebuilds land on the same frequency.",,1,2026-11-19T07:14:32Z,2026-11-21T04:35:51+00:00
+https://github.com/nmclaughlin98/blockbuster-theatre-backend/pull/22,Copilot,VERIFIED,"Tests pass: npm test -- --runTestsByPath src/test/workflows/deploy.test.ts src/test/lib/stack.test.ts --silent (passed, 39 tests)",,1,2026-11-19T09:51:55Z,2026-11-21T04:41:24+00:00
+https://github.com/Ignav99/trainingHub/pull/502,Cursor,VERIFIED,All existing tests pass,,1,2026-11-19T10:21:12Z,2026-11-21T04:36:17+00:00
+https://github.com/shizukutanaka/Loco/pull/25,Devin,VERIFIED,All existing tests pass,,1,2026-11-19T10:56:02Z,2026-11-21T04:39:24+00:00
+https://github.com/republique-et-canton-de-geneve/RetroGemini/pull/568,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-19T11:57:49Z,2026-11-21T04:32:38+00:00
+https://github.com/lazyxeon/AstraWeave/pull/760,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-19T14:36:16Z,2026-11-21T04:36:50+00:00
+https://github.com/candeladengra/docs-qa/pull/1,Cursor,MISMATCH,All tests pass successfully:,Backend Tests,0,2026-11-19T14:58:58Z,2026-11-21T04:36:41+00:00
+https://github.com/elsa-workflows/elsa-core/pull/9285,Cursor,VERIFIED,All tests pass,,1,2026-11-19T15:02:21Z,2026-11-21T04:36:37+00:00
+https://github.com/elsa-workflows/elsa-core/pull/9286,Cursor,VERIFIED,All tests pass,,1,2026-11-19T15:11:33Z,2026-11-21T04:36:35+00:00
+https://github.com/candeladengra/docs-qa/pull/2,Cursor,VERIFIED,"All tests passing, zero hardcoded secrets",,0,2026-11-19T15:19:24Z,2026-11-21T04:36:33+00:00
+https://github.com/BCBP-SOLUTIONS-FZC-LLC/workflow-execution-service/pull/56,Claude Code,VERIFIED,All tests passing with race detector,,0,2026-11-19T15:26:21Z,2026-11-21T04:33:28+00:00
+https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/590,Cursor,VERIFIED,All tests pass,,1,2026-11-19T15:58:29Z,2026-11-21T04:36:27+00:00
+https://github.com/superwall/Superwall-iOS/pull/619,Claude Code,MISMATCH,All unit tests pass.,run-tests,1,2026-11-19T15:59:28Z,2026-11-21T04:32:41+00:00
+https://github.com/tokim25/movie-app-repo/pull/211,Claude Code,VERIFIED,The 21 unit tests pass.,,0,2026-11-19T15:59:33Z,2026-11-21T04:34:16+00:00
+https://github.com/graphql-markdown/graphql-markdown/pull/3622,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes.,,1,2026-11-19T19:58:47Z,2026-11-21T04:32:53+00:00
+https://github.com/gonzalomunoz1024/opensearch-frontend/pull/1,Claude Code,MISMATCH,Tests pass (yarn test:jest for what changed),Run cypress tests (osd:ciGroup23Explore),0,2026-11-19T23:49:42Z,2026-11-21T04:33:38+00:00
