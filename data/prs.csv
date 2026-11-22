@@ -560,4 +560,31 @@ https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/590,Cursor,VERI
 https://github.com/superwall/Superwall-iOS/pull/619,Claude Code,MISMATCH,All unit tests pass.,run-tests,1,2026-11-19T15:59:28Z,2026-11-21T04:32:41+00:00
 https://github.com/tokim25/movie-app-repo/pull/211,Claude Code,VERIFIED,The 21 unit tests pass.,,0,2026-11-19T15:59:33Z,2026-11-21T04:34:16+00:00
 https://github.com/graphql-markdown/graphql-markdown/pull/3622,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes.,,1,2026-11-19T19:58:47Z,2026-11-21T04:32:53+00:00
-https://github.com/gonzalomunoz1024/opensearch-frontend/pull/1,Claude Code,MISMATCH,Tests pass (yarn test:jest for what changed),Run cypress tests (osd:ciGroup23Explore),0,2026-11-19T23:49:42Z,2026-11-21T04:33:38+00:00
+https://github.com/gonzalomunoz1024/opensearch-frontend/pull/1,Claude Code,MISMATCH,Tests pass (yarn test:jest for what changed),Run cypress tests (osd:ciGroup23Explore),1,2026-11-19T23:49:42Z,2026-11-21T04:33:38+00:00
+https://github.com/aman-dhakar-191/Mindscroll/pull/23,Claude Code,VERIFIED,"All 61 tests pass here, and the full painter and MoView file compiles against the API 34 jar.",,1,2026-11-20T03:57:44Z,2026-11-22T06:20:39+00:00
+https://github.com/rysweet/amplihack-rs/pull/2871,Claude Code,VERIFIED,unit tests pass.,,1,2026-11-20T03:57:48Z,2026-11-22T06:20:36+00:00
+https://github.com/okeefeco/pyeye-mcp/pull/1052,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-20T03:59:41Z,2026-11-22T06:22:55+00:00
+https://github.com/amerfathullah/myds-design-md/pull/363,Claude Code,VERIFIED,All 2665 tests pass across 41 files.,,1,2026-11-20T03:59:52Z,2026-11-22T06:20:31+00:00
+https://github.com/smeltworks/cnx/pull/2466,Devin,VERIFIED,"All tests pass: CI run 44727861975 at 6ac603c93 is green, and SonarCloud reports 0 new issues.",,1,2026-11-20T04:22:10Z,2026-11-22T06:28:08+00:00
+https://github.com/shaw-andy/grafana/pull/760,Cursor,UNVERIFIABLE,The tests pass once all of the following are true:,,0,2026-11-20T07:18:39Z,2026-11-22T06:24:55+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9762,Claude Code,UNVERIFIABLE,"All tests are passing (unittest, etc.).",,0,2026-11-20T07:36:05Z,2026-11-22T06:22:09+00:00
+https://github.com/Ignav99/trainingHub/pull/503,Cursor,VERIFIED,All existing tests pass,,1,2026-11-20T10:35:56Z,2026-11-22T06:25:13+00:00
+https://github.com/exponential-im/exponential/pull/1223,Claude Code,VERIFIED,All tests passing,,1,2026-11-20T11:16:33Z,2026-11-22T06:22:21+00:00
+https://github.com/aosama/astronomical/pull/2393,Claude Code,VERIFIED,All unit tests passed locally before I opened this PR.,,1,2026-11-20T11:30:43Z,2026-11-22T06:22:19+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9771,Claude Code,MISMATCH,"All tests are passing (unittest, etc.).",Targeted Unittest (H100); Test Results Summary,0,2026-11-20T11:31:02Z,2026-11-22T06:22:18+00:00
+https://github.com/RuTsEST/root-reach-calculator/pull/27,Cursor,VERIFIED,Unit tests pass,,1,2026-11-20T15:06:22Z,2026-11-22T06:25:17+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/252,Devin,UNVERIFIABLE,All 7 tests pass; the 100k-dot case finishes in milliseconds.,,0,2026-11-20T15:47:00Z,2026-11-22T06:28:20+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/254,Devin,UNVERIFIABLE,Tests passing (npm test): 3159 passed,,0,2026-11-20T15:47:33Z,2026-11-22T06:29:46+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/257,Devin,UNVERIFIABLE,Tests passing (npm test): 3047 tests passed,,0,2026-11-20T15:49:29Z,2026-11-22T06:29:44+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/258,Devin,UNVERIFIABLE,Tests passing (npm test): 3168 tests passed,,0,2026-11-20T15:50:02Z,2026-11-22T06:29:41+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/259,Devin,UNVERIFIABLE,Tests passing (npm test): 3174 passed,,0,2026-11-20T15:50:51Z,2026-11-22T06:29:38+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/260,Devin,UNVERIFIABLE,Tests passing (npm test),,0,2026-11-20T15:51:01Z,2026-11-22T06:29:36+00:00
+https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/262,Devin,UNVERIFIABLE,Tests passing (npm test): full suite passed; api/ suite (1753 tests) re-run after the review fixes,,0,2026-11-20T15:52:05Z,2026-11-22T06:29:33+00:00
+https://github.com/ConvertedBV/converted-google-ads-mcp/pull/7,Claude Code,VERIFIED,"207 unit tests pass (19 new), black --check clean.",,1,2026-11-20T15:59:56Z,2026-11-22T06:21:00+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6221,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-20T19:29:50Z,2026-11-22T06:25:28+00:00
+https://github.com/MetaMask/metamask-design-system/pull/1727,Cursor,VERIFIED,All tests pass (yarn build && yarn test && yarn lint),,0,2026-11-20T19:34:20Z,2026-11-22T06:25:26+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9790,Claude Code,VERIFIED,"""All tests are passing"" stays unchecked until upstream CI has run.",,1,2026-11-20T19:48:58Z,2026-11-22T06:22:33+00:00
+https://github.com/graphql-markdown/graphql-markdown/pull/3637,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes.,,1,2026-11-20T19:58:19Z,2026-11-22T06:21:26+00:00
+https://github.com/AccreditMe-Organization/AccreditME2026/pull/396,Claude Code,VERIFIED,All tests passing,,1,2026-11-20T19:59:03Z,2026-11-22T06:22:29+00:00
+https://github.com/BerriAI/litellm/pull/53172,Devin,VERIFIED,All 33 tests passed,,1,2026-11-20T20:38:03Z,2026-11-22T06:28:37+00:00
+https://github.com/pureslurp/dobi-site/pull/10,Cursor,VERIFIED,"All tests pass (unit tests run, Stripe API tests skip gracefully without credentials)",,1,2026-11-20T23:14:36Z,2026-11-22T06:25:37+00:00

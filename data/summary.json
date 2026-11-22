@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T04:47:32+00:00",
+ "updated": "2026-11-22T06:37:09+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -19,36 +19,37 @@
   "2026-11-16",
   "2026-11-17",
   "2026-11-18",
-  "2026-11-19"
+  "2026-11-19",
+  "2026-11-20"
  ],
  "total": {
-  "verified": 420,
-  "mismatch": 22,
-  "unverifiable": 120,
-  "judged": 442,
+  "verified": 436,
+  "mismatch": 23,
+  "unverifiable": 130,
+  "judged": 459,
   "rate": 5.0
  },
  "agents": {
   "Claude Code": {
-   "verified": 170,
-   "mismatch": 9,
-   "unverifiable": 27,
-   "judged": 179,
-   "rate": 5.0
-  },
-  "Cursor": {
-   "verified": 177,
+   "verified": 180,
    "mismatch": 10,
-   "unverifiable": 91,
-   "judged": 187,
+   "unverifiable": 28,
+   "judged": 190,
    "rate": 5.3
   },
+  "Cursor": {
+   "verified": 181,
+   "mismatch": 10,
+   "unverifiable": 93,
+   "judged": 191,
+   "rate": 5.2
+  },
   "Devin": {
-   "verified": 48,
+   "verified": 50,
    "mismatch": 2,
-   "unverifiable": 2,
-   "judged": 50,
-   "rate": 4.0
+   "unverifiable": 9,
+   "judged": 52,
+   "rate": 3.8
   },
   "Copilot": {
    "verified": 25,
@@ -60,11 +61,24 @@
  },
  "failed_kind": {
   "Build": 4,
-  "Unit / other tests": 15,
+  "Unit / other tests": 16,
   "End-to-end / integration": 3
  },
- "merged_with_failing_tests": 10,
+ "merged_with_failing_tests": 11,
  "cases": [
+  {
+   "pr_url": "https://github.com/flashinfer-ai/flashinfer/pull/9771",
+   "agent": "Claude Code",
+   "claim": "All tests are passing (unittest, etc.).",
+   "failed": [
+    "Targeted Unittest (H100)",
+    "Test Results Summary"
+   ],
+   "kind": "Unit / other tests",
+   "merged": false,
+   "pr_created": "2026-11-20T11:31:02Z",
+   "checked_at": "2026-11-22T06:22:18+00:00"
+  },
   {
    "pr_url": "https://github.com/gonzalomunoz1024/opensearch-frontend/pull/1",
    "agent": "Claude Code",
@@ -73,7 +87,7 @@
     "Run cypress tests (osd:ciGroup23Explore)"
    ],
    "kind": "End-to-end / integration",
-   "merged": false,
+   "merged": true,
    "pr_created": "2026-11-19T23:49:42Z",
    "checked_at": "2026-11-21T04:33:38+00:00"
   },
