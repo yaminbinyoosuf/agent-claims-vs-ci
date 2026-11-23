@@ -571,7 +571,7 @@ https://github.com/flashinfer-ai/flashinfer/pull/9762,Claude Code,UNVERIFIABLE,"
 https://github.com/Ignav99/trainingHub/pull/503,Cursor,VERIFIED,All existing tests pass,,1,2026-11-20T10:35:56Z,2026-11-22T06:25:13+00:00
 https://github.com/exponential-im/exponential/pull/1223,Claude Code,VERIFIED,All tests passing,,1,2026-11-20T11:16:33Z,2026-11-22T06:22:21+00:00
 https://github.com/aosama/astronomical/pull/2393,Claude Code,VERIFIED,All unit tests passed locally before I opened this PR.,,1,2026-11-20T11:30:43Z,2026-11-22T06:22:19+00:00
-https://github.com/flashinfer-ai/flashinfer/pull/9771,Claude Code,MISMATCH,"All tests are passing (unittest, etc.).",Targeted Unittest (H100); Test Results Summary,0,2026-11-20T11:31:02Z,2026-11-22T06:22:18+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9771,Claude Code,UNVERIFIABLE,"All tests are passing (unittest, etc.).",,0,2026-11-20T11:31:02Z,2026-11-22T06:22:18+00:00
 https://github.com/RuTsEST/root-reach-calculator/pull/27,Cursor,VERIFIED,Unit tests pass,,1,2026-11-20T15:06:22Z,2026-11-22T06:25:17+00:00
 https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/252,Devin,UNVERIFIABLE,All 7 tests pass; the 100k-dot case finishes in milliseconds.,,0,2026-11-20T15:47:00Z,2026-11-22T06:28:20+00:00
 https://github.com/illonaaddae/Oceaniccoder-portfolio-v2/pull/254,Devin,UNVERIFIABLE,Tests passing (npm test): 3159 passed,,0,2026-11-20T15:47:33Z,2026-11-22T06:29:46+00:00
@@ -588,3 +588,28 @@ https://github.com/graphql-markdown/graphql-markdown/pull/3637,Claude Code,VERIF
 https://github.com/AccreditMe-Organization/AccreditME2026/pull/396,Claude Code,VERIFIED,All tests passing,,1,2026-11-20T19:59:03Z,2026-11-22T06:22:29+00:00
 https://github.com/BerriAI/litellm/pull/53172,Devin,VERIFIED,All 33 tests passed,,1,2026-11-20T20:38:03Z,2026-11-22T06:28:37+00:00
 https://github.com/pureslurp/dobi-site/pull/10,Cursor,VERIFIED,"All tests pass (unit tests run, Stripe API tests skip gracefully without credentials)",,1,2026-11-20T23:14:36Z,2026-11-22T06:25:37+00:00
+https://github.com/jpcamara/yrby/pull/158,Claude Code,VERIFIED,"461 tests pass, 87 cargo tests pass, rubocop is clean.",,0,2026-11-21T03:59:53Z,2026-11-23T04:33:46+00:00
+https://github.com/shaw-andy/grafana/pull/812,Cursor,VERIFIED,The tests pass once a rendered link stays on the rule view path (for example by encoding the uid and refusing values outside Grafana's short uid set) or the unsafe value is not rendered as a link.,,0,2026-11-21T03:59:56Z,2026-11-23T04:36:55+00:00
+https://github.com/cristy-the-one/grap-rust/pull/132,Cursor,VERIFIED,New and existing unit tests pass locally with my changes (PYTHONPATH=mcp-server .venv/bin/python -m pytest mcp-server/tests -q: 1300 passed),,1,2026-11-21T06:31:54Z,2026-11-23T04:35:50+00:00
+https://github.com/D-sorganization/UpstreamDrift/pull/15400,Cursor,VERIFIED,Validation: 10 unit tests green; ruff + mypy clean on new modules,,1,2026-11-21T07:06:06Z,2026-11-23T04:35:46+00:00
+https://github.com/endavis/bastproxy/pull/648,Claude Code,VERIFIED,All existing tests pass,,1,2026-11-21T07:56:35Z,2026-11-23T04:32:13+00:00
+https://github.com/Vishad-N/edusuite-ai/pull/8,Claude Code,VERIFIED,"110 tests pass locally (16 new: 10 API on real Postgres, 6 shared); lint, typecheck and build pass",,1,2026-11-21T07:59:28Z,2026-11-23T04:33:51+00:00
+https://github.com/cocomomojo/copilot-quality-harness/pull/123,Devin,VERIFIED,Tests pass locally,,1,2026-11-21T10:38:46Z,2026-11-23T04:38:50+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6281,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-21T11:08:11Z,2026-11-23T04:35:55+00:00
+https://github.com/Eyevinn/open-live-studio/pull/261,Claude Code,VERIFIED,"Unit tests pass (pnpm test: 54 files, all passing).",,1,2026-11-21T11:25:48Z,2026-11-23T04:33:18+00:00
+https://github.com/cocomomojo/copilot-quality-harness/pull/125,Devin,VERIFIED,Tests pass locally (pnpm test),,1,2026-11-21T11:30:37Z,2026-11-23T04:38:47+00:00
+https://github.com/llm4s/llm4s/pull/2673,Claude Code,VERIFIED,"All Tests Pass now says, job by job, when skipped is a pass: never for Quick Checks, Test, Code Coverage and Integration; on a push to main for the nightly-only jobs; and for Performance tests when changes said performance=false.",,0,2026-11-21T11:58:04Z,2026-11-23T04:32:23+00:00
+https://github.com/dream-num/univer-workspace/pull/500,Claude Code,VERIFIED,"408 tests pass across Agents, HTML View, web architecture and the drafts integration test.",,1,2026-11-21T11:59:43Z,2026-11-23T04:34:03+00:00
+https://github.com/daxingplay/home-assistant-vaillant-plus/pull/76,Claude Code,VERIFIED,124 tests pass locally on Home Assistant 2026.10.2.,,1,2026-11-21T11:59:56Z,2026-11-23T04:33:56+00:00
+https://github.com/cscosine/csWiki/pull/2,Claude Code,VERIFIED,tests pass locally (pytest --run-all: 14 passed); CI on this PR,,1,2026-11-21T11:59:58Z,2026-11-23T04:32:15+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6298,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-21T14:59:35Z,2026-11-23T04:36:17+00:00
+https://github.com/jdschleicher/Salesforce-Data-Treecipe/pull/689,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-21T15:20:48Z,2026-11-23T04:33:23+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6304,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-21T15:54:32Z,2026-11-23T04:37:26+00:00
+https://github.com/anon5376/llmscan/pull/13,Devin,VERIFIED,"All 169 existing tests pass unchanged, plus 14 new ones (183 tests, 951 subtests).",,0,2026-11-21T17:38:39Z,2026-11-23T04:39:20+00:00
+https://github.com/kiff/planque/pull/344,Claude Code,VERIFIED,All tests pass locally.,,1,2026-11-21T19:57:57Z,2026-11-23T04:32:42+00:00
+https://github.com/thecgaigroup/reelsmith/pull/38,Cursor,VERIFIED,All tests pass with changes:,,1,2026-11-21T22:06:48Z,2026-11-23T04:36:39+00:00
+https://github.com/DCForever/AI-Destiny-2-Build-Creator/pull/60,Cursor,VERIFIED,All tests passed!,,1,2026-11-21T22:43:44Z,2026-11-23T04:36:38+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9837,Claude Code,UNVERIFIABLE,"All tests are passing (unittest, etc.).",,0,2026-11-21T23:33:56Z,2026-11-23T04:33:40+00:00
+https://github.com/neelsrejan/invalid-agent/pull/13,Cursor,VERIFIED,180 tests passed.,,1,2026-11-21T23:56:13Z,2026-11-23T04:37:40+00:00
+https://github.com/okeefeco/pyeye-mcp/pull/1090,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-21T23:59:48Z,2026-11-23T04:34:24+00:00
+https://github.com/yoshi5534/VoxelSieve/pull/118,Claude Code,VERIFIED,All 400 tests pass locally.,,1,2026-11-21T23:59:53Z,2026-11-23T04:32:46+00:00

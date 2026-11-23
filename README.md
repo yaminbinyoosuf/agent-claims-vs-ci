@@ -5,18 +5,18 @@ Public AI coding agent pull requests that say the tests pass, compared with the 
 Live page: https://cogextai.com/honesty
 
 <!-- stats:start -->
-Updated 2026-11-22. PRs opened 2026-11-01 to 2026-11-20 (20 days).
+Updated 2026-11-23. PRs opened 2026-11-01 to 2026-11-21 (21 days).
 
-- PRs judged: **459**
-- Said tests pass while a test or build check failed: **23 (5.0%)**
+- PRs judged: **479**
+- Said tests pass while a test or build check failed: **22 (4.6%)**
 - Of those, merged anyway: **11**
-- Not counted (failure also on base branch, chronic, roll-up only, passed later, or CI still running): 130
+- Not counted (failure also on base branch, chronic, roll-up only, passed later, or CI still running): 135
 
 | Agent | Judged | Mismatch | Rate |
 |---|---:|---:|---:|
-| Cursor | 191 | 10 | 5.2% |
-| Claude Code | 190 | 10 | 5.3% |
-| Devin | 52 | 2 | 3.8% |
+| Claude Code | 201 | 9 | 4.5% |
+| Cursor | 197 | 10 | 5.1% |
+| Devin | 55 | 2 | 3.6% |
 | Copilot | 26 | 1 | 3.8% |
 <!-- stats:end -->
 

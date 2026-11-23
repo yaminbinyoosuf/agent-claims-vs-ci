@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:37:09+00:00",
+ "updated": "2026-11-23T04:47:40+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -20,36 +20,37 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
-  "2026-11-20"
+  "2026-11-20",
+  "2026-11-21"
  ],
  "total": {
-  "verified": 436,
-  "mismatch": 23,
-  "unverifiable": 130,
-  "judged": 459,
-  "rate": 5.0
+  "verified": 457,
+  "mismatch": 22,
+  "unverifiable": 135,
+  "judged": 479,
+  "rate": 4.6
  },
  "agents": {
   "Claude Code": {
-   "verified": 180,
-   "mismatch": 10,
-   "unverifiable": 28,
-   "judged": 190,
-   "rate": 5.3
+   "verified": 192,
+   "mismatch": 9,
+   "unverifiable": 30,
+   "judged": 201,
+   "rate": 4.5
   },
   "Cursor": {
-   "verified": 181,
+   "verified": 187,
    "mismatch": 10,
-   "unverifiable": 93,
-   "judged": 191,
-   "rate": 5.2
+   "unverifiable": 96,
+   "judged": 197,
+   "rate": 5.1
   },
   "Devin": {
-   "verified": 50,
+   "verified": 53,
    "mismatch": 2,
    "unverifiable": 9,
-   "judged": 52,
-   "rate": 3.8
+   "judged": 55,
+   "rate": 3.6
   },
   "Copilot": {
    "verified": 25,
@@ -61,24 +62,11 @@
  },
  "failed_kind": {
   "Build": 4,
-  "Unit / other tests": 16,
+  "Unit / other tests": 15,
   "End-to-end / integration": 3
  },
  "merged_with_failing_tests": 11,
  "cases": [
-  {
-   "pr_url": "https://github.com/flashinfer-ai/flashinfer/pull/9771",
-   "agent": "Claude Code",
-   "claim": "All tests are passing (unittest, etc.).",
-   "failed": [
-    "Targeted Unittest (H100)",
-    "Test Results Summary"
-   ],
-   "kind": "Unit / other tests",
-   "merged": false,
-   "pr_created": "2026-11-20T11:31:02Z",
-   "checked_at": "2026-11-22T06:22:18+00:00"
-  },
   {
    "pr_url": "https://github.com/gonzalomunoz1024/opensearch-frontend/pull/1",
    "agent": "Claude Code",
