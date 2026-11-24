@@ -613,3 +613,30 @@ https://github.com/flashinfer-ai/flashinfer/pull/9837,Claude Code,UNVERIFIABLE,"
 https://github.com/neelsrejan/invalid-agent/pull/13,Cursor,VERIFIED,180 tests passed.,,1,2026-11-21T23:56:13Z,2026-11-23T04:37:40+00:00
 https://github.com/okeefeco/pyeye-mcp/pull/1090,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-21T23:59:48Z,2026-11-23T04:34:24+00:00
 https://github.com/yoshi5534/VoxelSieve/pull/118,Claude Code,VERIFIED,All 400 tests pass locally.,,1,2026-11-21T23:59:53Z,2026-11-23T04:32:46+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6317,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T05:17:53Z,2026-11-24T04:36:05+00:00
+https://github.com/langfuse/langfuse/pull/20653,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-22T07:45:05Z,2026-11-24T04:37:37+00:00
+https://github.com/massridedelivery/app-customer/pull/243,Claude Code,VERIFIED,All 652 tests pass; analyze is clean.,,1,2026-11-22T07:56:37Z,2026-11-24T04:31:56+00:00
+https://github.com/Bombatomica64/smelt/pull/539,Claude Code,VERIFIED,"Unit tests pass: smelt-codegen-rust 878, smelt-stdlib 69, smelt-transpiler unknownreport 54.",,1,2026-11-22T07:59:49Z,2026-11-24T04:33:59+00:00
+https://github.com/Null-Phnix/Blackreach/pull/42,Cursor,VERIFIED,All existing tests pass,,0,2026-11-22T11:10:45Z,2026-11-24T04:36:08+00:00
+https://github.com/GladysAssistant/Gladys/pull/3433,Cursor,VERIFIED,Tests pass: system.timeSync.js is covered at 100%.,,1,2026-11-22T11:50:21Z,2026-11-24T04:37:43+00:00
+https://github.com/sifiroth-gif/NPR/pull/54,Claude Code,VERIFIED,381 tests pass.,,1,2026-11-22T11:59:40Z,2026-11-24T04:34:09+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6319,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:07:32Z,2026-11-24T04:37:21+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6320,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-22T12:07:43Z,2026-11-24T04:37:19+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6321,Cursor,MISMATCH,Unit tests pass,python-unit (services); python-unit-tests,0,2026-11-22T12:08:04Z,2026-11-24T04:37:17+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6322,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:08:15Z,2026-11-24T04:37:14+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6323,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:08:35Z,2026-11-24T04:37:12+00:00
+https://github.com/jose-compu/dignity.js/pull/158,Cursor,VERIFIED,"Tests pass (65 suites, 582 tests)",,1,2026-11-22T13:59:29Z,2026-11-24T04:37:09+00:00
+https://github.com/CR1MS0N-Operator/c4/pull/15,Devin,VERIFIED,Unit tests pass,,1,2026-11-22T18:01:02Z,2026-11-24T04:40:19+00:00
+https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/633,Cursor,VERIFIED,Tests pass under dotnet test.,,1,2026-11-22T18:26:10Z,2026-11-24T04:36:52+00:00
+https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/634,Cursor,VERIFIED,Tests pass under dotnet test.,,1,2026-11-22T18:28:35Z,2026-11-24T04:36:50+00:00
+https://github.com/SirStig/EncodeForge/pull/7,Cursor,VERIFIED,All existing tests pass (targeted suite),,1,2026-11-22T19:11:52Z,2026-11-24T04:36:43+00:00
+https://github.com/SirStig/EncodeForge/pull/11,Cursor,VERIFIED,All existing tests pass locally (249 passed with CI marker filter after rebase),,1,2026-11-22T19:21:47Z,2026-11-24T04:36:41+00:00
+https://github.com/SirStig/EncodeForge/pull/13,Cursor,VERIFIED,All existing tests pass,,1,2026-11-22T19:22:51Z,2026-11-24T04:36:39+00:00
+https://github.com/SirStig/EncodeForge/pull/16,Cursor,VERIFIED,All existing tests pass (local: tests/testsettingstruth.py + tests/testmodelsandsettings.py),,1,2026-11-22T19:28:57Z,2026-11-24T04:36:35+00:00
+https://github.com/SirStig/EncodeForge/pull/18,Cursor,VERIFIED,All existing tests pass locally,,1,2026-11-22T19:30:27Z,2026-11-24T04:36:33+00:00
+https://github.com/SirStig/EncodeForge/pull/19,Cursor,VERIFIED,All existing tests pass locally for this slice,,1,2026-11-22T19:30:52Z,2026-11-24T04:36:31+00:00
+https://github.com/inference-sh/sdk-js/pull/802,Cursor,MISMATCH,8 tests passed.,pnpm install + test + build,0,2026-11-22T23:48:49Z,2026-11-24T04:38:22+00:00
+https://github.com/t81dev/t81-foundation/pull/847,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-22T23:51:07Z,2026-11-24T04:38:17+00:00
+https://github.com/mtangoz/grill/pull/234,Cursor,VERIFIED,"Tests pass (node --test scripts/.test.mjs), no new dependencies",,1,2026-11-22T23:54:05Z,2026-11-24T04:38:16+00:00
+https://github.com/mtangoz/grill/pull/235,Cursor,VERIFIED,"Tests pass (node --test scripts/.test.mjs), no new dependencies",,1,2026-11-22T23:56:44Z,2026-11-24T04:38:14+00:00
+https://github.com/different-ai-studio/teamclu/pull/1986,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-22T23:59:26Z,2026-11-24T04:38:13+00:00
