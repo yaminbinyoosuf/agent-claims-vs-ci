@@ -622,7 +622,7 @@ https://github.com/GladysAssistant/Gladys/pull/3433,Cursor,VERIFIED,Tests pass: 
 https://github.com/sifiroth-gif/NPR/pull/54,Claude Code,VERIFIED,381 tests pass.,,1,2026-11-22T11:59:40Z,2026-11-24T04:34:09+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6319,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:07:32Z,2026-11-24T04:37:21+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6320,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-22T12:07:43Z,2026-11-24T04:37:19+00:00
-https://github.com/pipeshub-ai/pipeshub-ai/pull/6321,Cursor,MISMATCH,Unit tests pass,python-unit (services); python-unit-tests,0,2026-11-22T12:08:04Z,2026-11-24T04:37:17+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6321,Cursor,MISMATCH,Unit tests pass,python-unit (services); python-unit-tests,1,2026-11-22T12:08:04Z,2026-11-24T04:37:17+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6322,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:08:15Z,2026-11-24T04:37:14+00:00
 https://github.com/pipeshub-ai/pipeshub-ai/pull/6323,Cursor,UNVERIFIABLE,Unit tests pass,,0,2026-11-22T12:08:35Z,2026-11-24T04:37:12+00:00
 https://github.com/jose-compu/dignity.js/pull/158,Cursor,VERIFIED,"Tests pass (65 suites, 582 tests)",,1,2026-11-22T13:59:29Z,2026-11-24T04:37:09+00:00
@@ -640,3 +640,22 @@ https://github.com/t81dev/t81-foundation/pull/847,Cursor,VERIFIED,New and existi
 https://github.com/mtangoz/grill/pull/234,Cursor,VERIFIED,"Tests pass (node --test scripts/.test.mjs), no new dependencies",,1,2026-11-22T23:54:05Z,2026-11-24T04:38:16+00:00
 https://github.com/mtangoz/grill/pull/235,Cursor,VERIFIED,"Tests pass (node --test scripts/.test.mjs), no new dependencies",,1,2026-11-22T23:56:44Z,2026-11-24T04:38:14+00:00
 https://github.com/different-ai-studio/teamclu/pull/1986,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-22T23:59:26Z,2026-11-24T04:38:13+00:00
+https://github.com/latifismail53/futsal-manager/pull/3,Devin,VERIFIED,All 47 tests pass.,,0,2026-11-23T03:42:04Z,2026-11-25T04:39:11+00:00
+https://github.com/t81dev/t81-foundation/pull/849,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-23T03:56:19Z,2026-11-25T04:37:15+00:00
+https://github.com/port-labs/ocean/pull/4693,Cursor,VERIFIED,All 42 unit tests pass,,0,2026-11-23T07:21:27Z,2026-11-25T04:35:26+00:00
+https://github.com/fubak/cyberdoom/pull/116,Devin,VERIFIED,"862 tests pass, build clean.",,1,2026-11-23T07:34:40Z,2026-11-25T04:40:37+00:00
+https://github.com/BCBP-SOLUTIONS-FZC-LLC/workflow-execution-service/pull/64,Claude Code,VERIFIED,All tests passing with race detector,,1,2026-11-23T07:35:44Z,2026-11-25T04:32:34+00:00
+https://github.com/fubak/cyberdoom/pull/117,Devin,VERIFIED,"862 tests pass, build clean.",,1,2026-11-23T07:53:54Z,2026-11-25T04:40:34+00:00
+https://github.com/okeefeco/pyeye-mcp/pull/1156,Claude Code,VERIFIED,New and existing unit tests pass locally with my changes,,1,2026-11-23T07:59:56Z,2026-11-25T04:33:21+00:00
+https://github.com/fubak/cyberdoom/pull/119,Devin,VERIFIED,"862 tests pass, build clean.",,1,2026-11-23T08:41:35Z,2026-11-25T04:39:53+00:00
+https://github.com/Null-Phnix/Blackreach/pull/43,Cursor,VERIFIED,All existing tests pass,,0,2026-11-23T11:09:59Z,2026-11-25T04:35:38+00:00
+https://github.com/kaiser5474/hyperbit-social/pull/1,Cursor,MISMATCH,All 29 tests passing:,tests,1,2026-11-23T12:19:28Z,2026-11-25T04:37:04+00:00
+https://github.com/pipeshub-ai/pipeshub-ai/pull/6359,Cursor,UNVERIFIABLE,Unit tests pass,,1,2026-11-23T12:50:48Z,2026-11-25T04:36:32+00:00
+https://github.com/bsv-blockchain/py-sdk/pull/253,Cursor,VERIFIED,All tests pass locally,,1,2026-11-23T14:56:45Z,2026-11-25T04:35:54+00:00
+https://github.com/reelevant-tech/typoa/pull/84,Devin,VERIFIED,"Checks: 420 tests pass on express 5.3.0 and 4.22.3, and lint passes.",,1,2026-11-23T15:28:28Z,2026-11-25T04:40:59+00:00
+https://github.com/ArmisSecurity/armis-cli/pull/377,Claude Code,VERIFIED,All tests passing locally,,1,2026-11-23T15:39:08Z,2026-11-25T04:32:50+00:00
+https://github.com/flashinfer-ai/flashinfer/pull/9894,Claude Code,VERIFIED,"""All tests are passing"" stays unchecked until upstream CI has run.",,1,2026-11-23T15:42:34Z,2026-11-25T04:32:47+00:00
+https://github.com/MetaMask/metamask-design-system/pull/1735,Cursor,VERIFIED,All tests pass (yarn build && yarn test && yarn lint),,1,2026-11-23T18:55:25Z,2026-11-25T04:36:08+00:00
+https://github.com/XFuel-Lab/chit402/pull/708,Cursor,VERIFIED,"Existing tests pass (npm run test:contracts:core, or test:contracts:core:listener + test:contracts:core:solidity)",,1,2026-11-23T19:56:39Z,2026-11-25T04:37:59+00:00
+https://github.com/kohii/hiroba-calendar/pull/17,Cursor,VERIFIED,All tests pass,,1,2026-11-23T23:33:13Z,2026-11-25T04:36:27+00:00
+https://github.com/hdjebar/ExpertRuleFit/pull/17,Claude Code,VERIFIED,"104 tests passed in the pinned image (erf-pinned: Python 3.11.18, scikit-learn 1.7.2, imodels 3.0.4).",,1,2026-11-23T23:58:08Z,2026-11-25T04:32:23+00:00

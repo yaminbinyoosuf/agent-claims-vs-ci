@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T04:48:56+00:00",
+ "updated": "2026-11-25T04:48:31+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -22,36 +22,37 @@
   "2026-11-19",
   "2026-11-20",
   "2026-11-21",
-  "2026-11-22"
+  "2026-11-22",
+  "2026-11-23"
  ],
  "total": {
-  "verified": 477,
-  "mismatch": 24,
-  "unverifiable": 140,
-  "judged": 501,
+  "verified": 494,
+  "mismatch": 25,
+  "unverifiable": 141,
+  "judged": 519,
   "rate": 4.8
  },
  "agents": {
   "Claude Code": {
-   "verified": 195,
+   "verified": 200,
    "mismatch": 9,
    "unverifiable": 30,
-   "judged": 204,
-   "rate": 4.4
+   "judged": 209,
+   "rate": 4.3
   },
   "Cursor": {
-   "verified": 203,
-   "mismatch": 12,
-   "unverifiable": 101,
-   "judged": 215,
-   "rate": 5.6
+   "verified": 210,
+   "mismatch": 13,
+   "unverifiable": 102,
+   "judged": 223,
+   "rate": 5.8
   },
   "Devin": {
-   "verified": 54,
+   "verified": 59,
    "mismatch": 2,
    "unverifiable": 9,
-   "judged": 56,
-   "rate": 3.6
+   "judged": 61,
+   "rate": 3.3
   },
   "Copilot": {
    "verified": 25,
@@ -63,11 +64,23 @@
  },
  "failed_kind": {
   "Build": 5,
-  "Unit / other tests": 16,
+  "Unit / other tests": 17,
   "End-to-end / integration": 3
  },
- "merged_with_failing_tests": 11,
+ "merged_with_failing_tests": 13,
  "cases": [
+  {
+   "pr_url": "https://github.com/kaiser5474/hyperbit-social/pull/1",
+   "agent": "Cursor",
+   "claim": "All 29 tests passing:",
+   "failed": [
+    "tests"
+   ],
+   "kind": "Unit / other tests",
+   "merged": true,
+   "pr_created": "2026-11-23T12:19:28Z",
+   "checked_at": "2026-11-25T04:37:04+00:00"
+  },
   {
    "pr_url": "https://github.com/inference-sh/sdk-js/pull/802",
    "agent": "Cursor",
@@ -89,7 +102,7 @@
     "python-unit-tests"
    ],
    "kind": "Unit / other tests",
-   "merged": false,
+   "merged": true,
    "pr_created": "2026-11-22T12:08:04Z",
    "checked_at": "2026-11-24T04:37:17+00:00"
   },
