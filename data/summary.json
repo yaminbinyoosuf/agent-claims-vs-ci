@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:48:31+00:00",
+ "updated": "2026-11-26T08:07:05+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -23,36 +23,37 @@
   "2026-11-20",
   "2026-11-21",
   "2026-11-22",
-  "2026-11-23"
+  "2026-11-23",
+  "2026-11-24"
  ],
  "total": {
-  "verified": 494,
+  "verified": 523,
   "mismatch": 25,
-  "unverifiable": 141,
-  "judged": 519,
-  "rate": 4.8
+  "unverifiable": 143,
+  "judged": 548,
+  "rate": 4.6
  },
  "agents": {
   "Claude Code": {
-   "verified": 200,
+   "verified": 212,
    "mismatch": 9,
    "unverifiable": 30,
-   "judged": 209,
-   "rate": 4.3
+   "judged": 221,
+   "rate": 4.1
   },
   "Cursor": {
-   "verified": 210,
+   "verified": 223,
    "mismatch": 13,
-   "unverifiable": 102,
-   "judged": 223,
-   "rate": 5.8
+   "unverifiable": 104,
+   "judged": 236,
+   "rate": 5.5
   },
   "Devin": {
-   "verified": 59,
+   "verified": 63,
    "mismatch": 2,
    "unverifiable": 9,
-   "judged": 61,
-   "rate": 3.3
+   "judged": 65,
+   "rate": 3.1
   },
   "Copilot": {
    "verified": 25,
