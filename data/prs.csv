@@ -690,3 +690,27 @@ https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/694,Cursor,VERI
 https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/695,Cursor,VERIFIED,All tests pass,,1,2026-11-24T23:15:26Z,2026-11-26T07:55:00+00:00
 https://github.com/MarimerLLC/adjutant/pull/134,Claude Code,VERIFIED,Existing tests pass.,,1,2026-11-24T23:38:14Z,2026-11-26T07:51:34+00:00
 https://github.com/palthol/TU-api/pull/72,Cursor,UNVERIFIABLE,"Tests pass (npm --workspace services/api run test, waiver guard if schema-touched)",,0,2026-11-24T23:49:35Z,2026-11-26T07:56:13+00:00
+https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/709,Cursor,VERIFIED,All tests pass,,1,2026-11-25T02:57:28Z,2026-11-27T04:35:25+00:00
+https://github.com/JannesEster/farming-game/pull/25,Cursor,VERIFIED,All 243 tests pass.,,1,2026-11-25T03:08:31Z,2026-11-27T04:35:23+00:00
+https://github.com/ben-ranford/watt/pull/77,Cursor,VERIFIED,"Unit tests pass (swift test, and xcodebuild test for WattTests)",,1,2026-11-25T03:42:14Z,2026-11-27T04:37:04+00:00
+https://github.com/DRYTRIX/TimeTracker/pull/975,Claude Code,VERIFIED,All tests pass locally (e.g.,,1,2026-11-25T03:57:21Z,2026-11-27T04:31:51+00:00
+https://github.com/UchidaMizuki/econio/pull/66,Claude Code,VERIFIED,All tests pass locally.,,1,2026-11-25T03:58:02Z,2026-11-27T04:31:46+00:00
+https://github.com/Al-Ummah-Now/AlUmmahNow/pull/1979,Claude Code,VERIFIED,26 tests pass across the TUS specs on the merged tree; type check clean.,,1,2026-11-25T03:59:34Z,2026-11-27T04:33:44+00:00
+https://github.com/manaflow-ai/cmux/pull/55882,Claude Code,VERIFIED,"26 tests pass, including parity tests that port Swift behavior case by case.",,0,2026-11-25T07:35:11Z,2026-11-27T04:33:09+00:00
+https://github.com/different-ai-studio/teamclu/pull/2011,Cursor,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-25T07:49:17Z,2026-11-27T04:37:17+00:00
+https://github.com/cascadiacollections/citibike/pull/19,Cursor,VERIFIED,The 22 tests pass.,,1,2026-11-25T07:54:34Z,2026-11-27T04:37:13+00:00
+https://github.com/ash-c/portfolio/pull/27,Devin,VERIFIED,All 39 unit tests passed under the new CSS engine.,,1,2026-11-25T08:44:06Z,2026-11-27T04:39:27+00:00
+https://github.com/Null-Phnix/Blackreach/pull/45,Cursor,VERIFIED,All existing tests pass,,0,2026-11-25T11:11:06Z,2026-11-27T04:35:53+00:00
+https://github.com/paulfilkin/HoboLibris/pull/54,Claude Code,VERIFIED,180 tests pass.,,1,2026-11-25T11:59:43Z,2026-11-27T04:33:52+00:00
+https://github.com/JamesSmartCell/SmartLayerProxy/pull/21,Cursor,VERIFIED,All 357 tests pass (7 new tests added),,1,2026-11-25T13:07:02Z,2026-11-27T04:36:44+00:00
+https://github.com/PetrefiedThunder/mcp-semantic-scholar/pull/35,Cursor,VERIFIED,✅ All tests pass (npm test),,0,2026-11-25T15:59:38Z,2026-11-27T04:35:58+00:00
+https://github.com/Chris-Wolfgang/Barefoot/pull/217,Claude Code,VERIFIED,"796 tests pass (Contracts 140, Core 382, Data 201, test kit 9, architecture 64).",,1,2026-11-25T15:59:48Z,2026-11-27T04:34:01+00:00
+https://github.com/newjordan/hal-module-builder/pull/2,Cursor,VERIFIED,Existing tests pass (npm run test),,0,2026-11-25T18:06:34Z,2026-11-27T04:36:50+00:00
+https://github.com/MetaMask/metamask-design-system/pull/1743,Cursor,VERIFIED,All tests pass (yarn build && yarn test && yarn lint),,0,2026-11-25T19:16:46Z,2026-11-27T04:36:25+00:00
+https://github.com/MetaMask/metamask-design-system/pull/1744,Cursor,VERIFIED,All tests pass (yarn build && yarn test && yarn lint),,1,2026-11-25T19:29:38Z,2026-11-27T04:36:22+00:00
+https://github.com/vaibhav11123/agentcogs/pull/32,Cursor,VERIFIED,All 56 tests passing,,0,2026-11-25T20:33:19Z,2026-11-27T04:36:56+00:00
+https://github.com/vaibhav11123/agentcogs/pull/34,Cursor,VERIFIED,All 59 tests passing,,0,2026-11-25T20:37:29Z,2026-11-27T04:36:55+00:00
+https://github.com/vaibhav11123/agentcogs/pull/36,Cursor,VERIFIED,All 62 tests passing ✅,,1,2026-11-25T20:41:00Z,2026-11-27T04:36:53+00:00
+https://github.com/mikelane/pytest-gremlins/pull/1085,Claude Code,VERIFIED,All existing tests pass (pre-push small tests),,1,2026-11-25T23:57:26Z,2026-11-27T04:32:52+00:00
+https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/796,Cursor,VERIFIED,"All tests pass, and dotnet build BackPocketEmulator.slnx -c Release -warnaserror is clean: 0 warnings, 0 errors.",,1,2026-11-25T23:57:58Z,2026-11-27T04:36:27+00:00
+https://github.com/doleksy/podman4ai/pull/80,Claude Code,VERIFIED,"All 251 unit tests pass locally, and the label filter was checked against a real Sandbox machine (Podman 6.2.0).",,1,2026-11-25T23:58:04Z,2026-11-27T04:32:48+00:00
