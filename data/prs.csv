@@ -714,3 +714,17 @@ https://github.com/vaibhav11123/agentcogs/pull/36,Cursor,VERIFIED,All 62 tests p
 https://github.com/mikelane/pytest-gremlins/pull/1085,Claude Code,VERIFIED,All existing tests pass (pre-push small tests),,1,2026-11-25T23:57:26Z,2026-11-27T04:32:52+00:00
 https://github.com/Bad-Mango-Solutions/back-pocket-emulator/pull/796,Cursor,VERIFIED,"All tests pass, and dotnet build BackPocketEmulator.slnx -c Release -warnaserror is clean: 0 warnings, 0 errors.",,1,2026-11-25T23:57:58Z,2026-11-27T04:36:27+00:00
 https://github.com/doleksy/podman4ai/pull/80,Claude Code,VERIFIED,"All 251 unit tests pass locally, and the label filter was checked against a real Sandbox machine (Podman 6.2.0).",,1,2026-11-25T23:58:04Z,2026-11-27T04:32:48+00:00
+https://github.com/apnotic/pwpush-chrome-extension/pull/11,Cursor,VERIFIED,✅ All tests passing:,,1,2026-11-26T00:26:58Z,2026-11-28T04:35:50+00:00
+https://github.com/Hudson-Pufferfish/local-party-console/pull/34,Cursor,VERIFIED,All 173 tests passing,,1,2026-11-26T03:54:22Z,2026-11-28T04:35:48+00:00
+https://github.com/dandi/dandi-archive/pull/3064,Claude Code,VERIFIED,All 8 tests pass against a local build.,,0,2026-11-26T03:58:00Z,2026-11-28T04:31:16+00:00
+https://github.com/operatorsystems-mep/bestmanbackup/pull/50,Cursor,VERIFIED,Unit tests pass (paid + price ID + amount).,,1,2026-11-26T06:47:18Z,2026-11-28T04:34:51+00:00
+https://github.com/TomHilder/mgsl/pull/4,Claude Code,VERIFIED,All 115 tests pass locally.,,1,2026-11-26T07:57:46Z,2026-11-28T04:31:24+00:00
+https://github.com/sofianedjerbi/nexel-worlds/pull/149,Claude Code,MISMATCH,900 unit tests pass and ruff is clean.,Browser tests (tests/e2e/test_e2e_bag.py tests/e2e/test_e2e_build_face.py tests/e2e/test_e2e_hd_s...; Browser tests (tests/e2e/test_e2e_bubbles.py tests/e2e/test_e2e_bundle.py tests/e2e/test_e2e_livi...; Browser tests (tests/e2e/test_e2e_hand.py tests/e2e/test_e2e_hd_behind.py tests/e2e/test_e2e_hd_c...; Browser tests (tests/e2e/test_e2e_hd_reach.py tests/e2e/test_e2e_hd_sky.py tests/e2e/test_e2e_hd_...,1,2026-11-26T07:59:44Z,2026-11-28T04:33:01+00:00
+https://github.com/Null-Phnix/Blackreach/pull/46,Cursor,VERIFIED,All existing tests pass,,0,2026-11-26T11:11:00Z,2026-11-28T04:34:58+00:00
+https://github.com/rhysiboy-jpg/station/pull/14,Claude Code,VERIFIED,5 tests pass (npm test); npm run typecheck and npm run build pass.,,1,2026-11-26T11:59:32Z,2026-11-28T04:33:14+00:00
+https://github.com/COG-GTM/idempiere/pull/55,Devin,VERIFIED,New and existing unit tests pass locally with my changes,,0,2026-11-26T15:23:04Z,2026-11-28T04:38:19+00:00
+https://github.com/malachi-hq/malachi/pull/393,Claude Code,MISMATCH,All tests passing,CI Summary; Test (partition 3),0,2026-11-26T15:26:51Z,2026-11-28T04:32:35+00:00
+https://github.com/seanmcadam/pi-dns-kernel/pull/1,Cursor,MISMATCH,All 16 test passed (10 passed in various crates + 5 passed in rfb + 1 passed in version),build-kernel; test-unit,1,2026-11-26T19:27:17Z,2026-11-28T04:35:35+00:00
+https://github.com/conn3xorg/conn3x/pull/1451,Claude Code,VERIFIED,Both tests passed.,,1,2026-11-26T19:56:17Z,2026-11-28T04:31:57+00:00
+https://github.com/gpillon/k4all/pull/113,Claude Code,VERIFIED,All tests passed.,,1,2026-11-26T23:58:32Z,2026-11-28T04:32:09+00:00
+https://github.com/haau3/research/pull/5,Claude Code,VERIFIED,"All 68 tests pass, and the site renders.",,1,2026-11-26T23:59:11Z,2026-11-28T04:32:03+00:00
